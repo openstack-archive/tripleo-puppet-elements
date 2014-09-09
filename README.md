@@ -1,13 +1,6 @@
 Puppet building rules for OpenStack images
 ==========================================
 
-First note
-----------
-
-This project is not yet official and is work in progress. It aims to move on
-Stackforge if the community decides it.
-
-
 These elements are used to build disk images for deploying OpenStack via Heat.
 They are built as part of the TripleO (https://wiki.openstack.org/wiki/TripleO)
 umbrella project.
