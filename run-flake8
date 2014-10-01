@@ -18,6 +18,9 @@ set -o pipefail
 
 flake8
 
-extra_python_files=$(egrep -R --null-data --files-with-matches "^#!/usr/bin/env python" elements/)
-echo $extra_python_files
-flake8 ${extra_python_files}
+# TODO (EmilienM) disable elements flake8 check, since we don't have elements yet.
+#  if we don't comment this, egrep will return '1' and flake8 will fail.
+#
+#  extra_python_files=$(egrep -R --null-data --files-with-matches "^#!/usr/bin/env python" elements/)
+#  echo $extra_python_files
+#  flake8 ${extra_python_files}
