@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -eux
+
+install-packages -m puppet-modules puppet_modules_package
+
+ln -s /usr/share/openstack-puppet/modules/* /etc/puppet/modules/

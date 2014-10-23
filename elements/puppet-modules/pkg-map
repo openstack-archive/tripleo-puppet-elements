@@ -1,0 +1,5 @@
+{
+  "default": {
+    "puppet_modules_package": "openstack-puppet-modules"
+  }
+}
