@@ -1,0 +1,12 @@
+---
+:backends:
+  - json
+  - yaml
+:json:
+  :datadir: /etc/puppet/hieradata
+:yaml:
+  :datadir: /etc/puppet/hieradata
+:hierarchy:
+  {{#hiera.hierarchy}}
+  - {{.}}
+  {{/hiera.hierarchy}}
