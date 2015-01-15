@@ -1,0 +1,62 @@
+#!/bin/bash
+
+# Configure hiera datafiles based on Heat metadata.
+set -eu
+
+mkdir -p /etc/puppet/hieradata
+
+function write_oac_data() {
+  local key=$1
+  local filename=$2
+  # Lookup data for the associated mapping (hiera.datafiles.<name>.oac_data)
+  local HIERA_DATA=$(os-apply-config --key $key --type raw --key-default '')
+  local HIERA_DATAMAP_KEYS=$(jq keys <<< $HIERA_DATA)
+  local COUNT=$(($(jq length <<< $HIERA_DATAMAP_KEYS) - 1))
+
+  for i in $(seq 0 $COUNT); do
+    local KEY=$(jq -r ".[$i]" <<< $HIERA_DATAMAP_KEYS)
+    local OAC_KEY=$(jq -r -a ".[\"$KEY\"]" <<< $HIERA_DATA)
+    local OAC_VALUE=$(os-apply-config --key $OAC_KEY --type raw --key-default '')
+    # Quote multi-line strings for YAML
+    if [ $(echo -ne "$OAC_VALUE" | grep -c '$') -gt 1 ]; then
+      echo "$KEY: '$OAC_VALUE'" >> $filename
+    else
+      echo "$KEY: $OAC_VALUE" >> $filename
+    fi
+
+  done
+}
+
+function write_mapped_data() {
+  local key=$1
+  local filename=$2
+  # Lookup data for the associated mapping (hiera.datafiles.<name>.mapped_data)
+  local HIERA_DATA=$(os-apply-config --key $key --type raw --key-default '')
+  local HIERA_DATAMAP_KEYS=$(jq keys <<< $HIERA_DATA)
+  local COUNT=$(($(jq length <<< $HIERA_DATAMAP_KEYS) - 1))
+
+  for i in $(seq 0 $COUNT); do
+    local KEY=$(jq -r ".[$i]" <<< $HIERA_DATAMAP_KEYS)
+    local VALUE=$(jq -r -a ".[\"$KEY\"]" <<< $HIERA_DATA)
+    # Quote multi-line strings for YAML
+    if [ $(echo -ne "$VALUE" | grep -c '$') -gt 1 ]; then
+      echo "$KEY: '$VALUE'" >> $filename
+    else
+      echo "$KEY: $VALUE" >> $filename
+    fi
+  done
+}
+
+# Loop over all the datafiles
+HIERA_DATAFILES=$(os-apply-config --key hiera.datafiles --type raw --key-default '')
+HIERA_DATAFILE_KEYS=$(jq keys <<< $HIERA_DATAFILES)
+COUNT=$(($(jq length <<< $HIERA_DATAFILE_KEYS) - 1))
+for i in $(seq 0 $COUNT); do
+    KEY=$(jq -r ".[$i]" <<< $HIERA_DATAFILE_KEYS)
+    FILENAME="/etc/puppet/hieradata/$KEY.yaml"
+    # First we write out any static data
+    HIERA_DATA=$(os-apply-config --key hiera.datafiles.$KEY.raw_data --type raw --key-default '')
+    echo -e "$HIERA_DATA" > /etc/puppet/hieradata/$KEY.yaml
+    write_mapped_data "hiera.datafiles.${KEY}.mapped_data" $FILENAME
+    write_oac_data "hiera.datafiles.${KEY}.oac_data" $FILENAME
+done
