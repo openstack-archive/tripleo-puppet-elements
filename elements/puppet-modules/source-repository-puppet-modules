@@ -38,3 +38,4 @@ puppet-vswitch git /opt/stack/puppet-modules/vswitch https://github.com/stackfor
 puppetlabs-xinetd git /opt/stack/puppet-modules/xinetd https://github.com/puppetlabs/puppetlabs-xinetd.git
 puppet-openstacklib git /opt/stack/puppet-modules/openstacklib https://github.com/stackforge/puppet-openstacklib.git
 puppet-module-keepalived git /opt/stack/puppet-modules/keepalived https://github.com/Unyonsys/puppet-module-keepalived.git
+puppetlabs-ntp git /opt/stack/puppet-modules/ntp https://github.com/puppetlabs/puppetlabs-ntp.git
