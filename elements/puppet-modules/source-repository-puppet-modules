@@ -40,3 +40,4 @@ puppet-openstacklib git /opt/stack/puppet-modules/openstacklib https://github.co
 puppet-module-keepalived git /opt/stack/puppet-modules/keepalived https://github.com/Unyonsys/puppet-module-keepalived.git
 puppetlabs-ntp git /opt/stack/puppet-modules/ntp https://github.com/puppetlabs/puppetlabs-ntp.git
 puppet-snmp git /opt/stack/puppet-modules/snmp https://github.com/razorsedge/puppet-snmp.git
+puppet-tripleo git /opt/stack/puppet-modules/tripleo https://github.com/enovance/puppet-tripleo.git
