@@ -1,0 +1,10 @@
+{
+  "default": {
+    "nova_compute_package": "openstack-nova-compute",
+    "neutron_package": "openstack-neutron",
+    "ceilometer_compute_package": "openstack-ceilometer-compute",
+    "neutron_ml2_package": "openstack-neutron-ml2",
+    "neutron_openvswitch_package": "openstack-neutron-openvswitch",
+    "libvirt_package": "libvirt"
+  }
+}
