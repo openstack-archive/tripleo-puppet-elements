@@ -33,6 +33,7 @@
     "python_openstackclient_package": "python-openstackclient",
     "rabbitmq_server_package": "rabbitmq-server",
     "targetcli_package": "targetcli",
+    "tgt_package": "scsi-target-utils",
     "xinetd_package": "xinetd"
   }
 }
