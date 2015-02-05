@@ -1,4 +1,4 @@
 #!/bin/bash
 set -eux
 
-ln -s /opt/stack/puppet-modules/* /etc/puppet/modules/
+ln -f -s /opt/stack/puppet-modules/* /etc/puppet/modules/
