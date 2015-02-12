@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -eux
+set -o pipefail
+
+ln -f -s /etc/puppet/hiera.yaml /etc/hiera.yaml
