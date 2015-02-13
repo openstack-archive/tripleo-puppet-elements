@@ -1,4 +1,5 @@
 puppetlabs-apache git /opt/stack/puppet-modules/apache https://github.com/puppetlabs/puppetlabs-apache.git
+puppet-ceph git /opt/stack/puppet-modules/ceph https://github.com/stackforge/puppet-ceph.git
 puppet-ceilometer git /opt/stack/puppet-modules/ceilometer https://github.com/stackforge/puppet-ceilometer.git
 puppet-certmonger git /opt/stack/puppet-modules/certmonger https://github.com/rcritten/puppet-certmonger.git
 puppet-cinder git /opt/stack/puppet-modules/cinder https://github.com/stackforge/puppet-cinder.git
