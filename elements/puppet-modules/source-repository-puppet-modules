@@ -43,5 +43,4 @@ puppet-tripleo git /opt/stack/puppet-modules/tripleo https://github.com/enovance
 puppet-ironic git /opt/stack/puppet-modules/ironic https://github.com/stackforge/puppet-ironic.git
 puppetlabs-corosync git /opt/stack/puppet-modules/corosync https://github.com/puppetlabs/puppetlabs-corosync.git
 puppet_aviator git /opt/stack/puppet-modules/aviator https://github.com/aimonb/puppet_aviator.git
-puppet-openstacklib git /opt/stack/puppet-modules/openstacklib https://github.com/stackforge/puppet-openstacklib.git
 puppet-openstack_extras git /opt/stack/puppet-modules/openstack_extras https://github.com/stackforge/puppet-openstack_extras.git
