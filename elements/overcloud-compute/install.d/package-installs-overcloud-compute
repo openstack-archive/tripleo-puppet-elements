@@ -1,3 +1,4 @@
+ceph
 nova_compute_package
 neutron_package
 ceilometer_compute_package

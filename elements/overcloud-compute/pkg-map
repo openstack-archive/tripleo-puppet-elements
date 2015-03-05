@@ -1,5 +1,6 @@
 {
   "default": {
+    "ceph": "ceph",
     "nova_compute_package": "openstack-nova-compute",
     "neutron_package": "openstack-neutron",
     "ceilometer_compute_package": "openstack-ceilometer-compute",
