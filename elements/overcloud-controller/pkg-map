@@ -15,7 +15,7 @@
     "heat_engine_package": "openstack-heat-engine",
     "keystone_package": "openstack-keystone",
     "mariadb_package": "mariadb",
-    "mariadb_server_package": "mariadb-server",
+    "mariadb_server_package": "mariadb-galera-server",
     "memcached_package": "memcached",
     "neutron_ml2_package": "openstack-neutron-ml2",
     "neutron_openvswitch_package": "openstack-neutron-openvswitch",
