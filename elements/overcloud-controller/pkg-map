@@ -18,6 +18,8 @@
     "mariadb_package": "mariadb",
     "mariadb_server_package": "mariadb-galera-server",
     "memcached_package": "memcached",
+    "mongodb_client": "mongodb",
+    "mongodb_server": "mongodb-server",
     "neutron_ml2_package": "openstack-neutron-ml2",
     "neutron_openvswitch_package": "openstack-neutron-openvswitch",
     "neutron_package": "openstack-neutron",
