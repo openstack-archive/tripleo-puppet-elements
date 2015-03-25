@@ -31,6 +31,7 @@
     "nova_scheduler_package": "openstack-nova-scheduler",
     "python_openstackclient_package": "python-openstackclient",
     "rabbitmq_server_package": "rabbitmq-server",
+    "redis_server_package": "redis",
     "swift_account_package": "openstack-swift-account",
     "swift_container_package": "openstack-swift-container",
     "swift_object_package": "openstack-swift-object",

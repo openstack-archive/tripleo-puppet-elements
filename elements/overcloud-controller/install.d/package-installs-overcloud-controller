@@ -29,6 +29,7 @@ nova_novncproxy_package
 nova_scheduler_package
 python_openstackclient_package
 rabbitmq_server_package
+redis_server_package
 swift_account_package
 swift_container_package
 swift_object_package

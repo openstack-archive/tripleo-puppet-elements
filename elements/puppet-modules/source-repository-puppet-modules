@@ -23,6 +23,7 @@ puppet-openstack git /opt/stack/puppet-modules/openstack https://github.com/stac
 puppet-puppet git /opt/stack/puppet-modules/puppet https://github.com/purpleidea/puppet-puppet.git
 puppet-qpid git /opt/stack/puppet-modules/qpid https://github.com/dprince/puppet-qpid.git
 puppetlabs-rabbitmq git /opt/stack/puppet-modules/rabbitmq https://github.com/puppetlabs/puppetlabs-rabbitmq.git
+puppet-redis git /opt/stack/puppet-modules/redis https://github.com/arioch/puppet-redis.git
 puppetlabs-rsync git /opt/stack/puppet-modules/rsync https://github.com/puppetlabs/puppetlabs-rsync.git
 puppet-sahara git /opt/stack/puppet-modules/sahara https://github.com/stackforge/puppet-sahara.git
 puppet-ssh git /opt/stack/puppet-modules/ssh https://github.com/saz/puppet-ssh.git
