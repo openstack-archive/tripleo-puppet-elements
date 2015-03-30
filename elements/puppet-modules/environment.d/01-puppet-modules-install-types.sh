@@ -48,7 +48,8 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-ironic \
     puppet-openstack_extras \
     puppet_aviator \
-    puppetlabs-corosync; do
+    puppetlabs-corosync \
+    puppet-tuskar; do
     export DIB_INSTALLTYPE_${name//\-/_}='source'
   done
 fi
