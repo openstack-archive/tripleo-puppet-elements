@@ -1,6 +1,6 @@
 {
   "default": {
-    "ceph": "ceph",
+    "ceph_package": "ceph",
     "ceilometer_alarm_package": "openstack-ceilometer-alarm",
     "ceilometer_api_package": "openstack-ceilometer-api",
     "ceilometer_central_package": "openstack-ceilometer-central",
@@ -18,8 +18,8 @@
     "mariadb_package": "mariadb",
     "mariadb_server_package": "mariadb-galera-server",
     "memcached_package": "memcached",
-    "mongodb_client": "mongodb",
-    "mongodb_server": "mongodb-server",
+    "mongodb_client_package": "mongodb",
+    "mongodb_server_package": "mongodb-server",
     "neutron_ml2_package": "openstack-neutron-ml2",
     "neutron_openvswitch_package": "openstack-neutron-openvswitch",
     "neutron_package": "openstack-neutron",
