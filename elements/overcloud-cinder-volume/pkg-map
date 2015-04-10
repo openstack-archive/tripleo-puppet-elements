@@ -1,0 +1,7 @@
+{
+  "default": {
+    "cinder_package": "openstack-cinder",
+    "targetcli_package": "targetcli",
+    "tgt_package": "scsi-target-utils"
+  }
+}
