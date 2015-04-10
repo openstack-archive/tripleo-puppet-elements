@@ -1,9 +1,9 @@
-ceph_package
 ceilometer_alarm_package
 ceilometer_api_package
 ceilometer_central_package
 ceilometer_collector_package
 ceilometer_notification_package
+ceph_package
 cinder_package
 glance_package
 haproxy_package
@@ -26,6 +26,8 @@ nova_conductor_package
 nova_console_package
 nova_novncproxy_package
 nova_scheduler_package
+pacemaker_package
+pcs_package
 python_openstackclient_package
 rabbitmq_server_package
 redis_server_package

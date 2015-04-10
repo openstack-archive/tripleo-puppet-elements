@@ -1,11 +1,12 @@
 {
   "default": {
-    "ceph": "ceph",
-    "nova_compute_package": "openstack-nova-compute",
-    "neutron_package": "openstack-neutron",
     "ceilometer_compute_package": "openstack-ceilometer-compute",
+    "ceph": "ceph",
+    "libvirt_package": "libvirt",
+    "neutron_package": "openstack-neutron",
     "neutron_ml2_package": "openstack-neutron-ml2",
     "neutron_openvswitch_package": "openstack-neutron-openvswitch",
-    "libvirt_package": "libvirt"
+    "nova_compute_package": "openstack-nova-compute",
+    "pacemaker_remote_package": "pacemaker-remote"
   }
 }
