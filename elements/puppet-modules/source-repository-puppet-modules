@@ -46,3 +46,4 @@ puppetlabs-corosync git /opt/stack/puppet-modules/corosync https://github.com/pu
 puppet_aviator git /opt/stack/puppet-modules/aviator https://github.com/aimonb/puppet_aviator.git
 puppet-openstack_extras git /opt/stack/puppet-modules/openstack_extras https://github.com/stackforge/puppet-openstack_extras.git
 puppet-tuskar git /opt/stack/puppet-modules/tuskar https://github.com/stackforge/puppet-tuskar.git
+
