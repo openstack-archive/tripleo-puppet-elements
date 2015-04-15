@@ -1,11 +1,11 @@
 {
   "default": {
-    "ceph_package": "ceph",
     "ceilometer_alarm_package": "openstack-ceilometer-alarm",
     "ceilometer_api_package": "openstack-ceilometer-api",
     "ceilometer_central_package": "openstack-ceilometer-central",
     "ceilometer_collector_package": "openstack-ceilometer-collector",
     "ceilometer_notification_package": "openstack-ceilometer-notification",
+    "ceph_package": "ceph",
     "cinder_package": "openstack-cinder",
     "glance_package": "openstack-glance",
     "haproxy_package": "haproxy",
@@ -30,6 +30,8 @@
     "nova_novncproxy_package": "openstack-nova-novncproxy",
     "nova_scheduler_package": "openstack-nova-scheduler",
     "python_openstackclient_package": "python-openstackclient",
+    "pacemaker_package": "pacemaker",
+    "pcs_package": "pcs",
     "rabbitmq_server_package": "rabbitmq-server",
     "redis_server_package": "redis",
     "swift_account_package": "openstack-swift-account",
