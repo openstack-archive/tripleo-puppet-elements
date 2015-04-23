@@ -22,7 +22,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-neutron \
     puppet-nova \
     puppet-nssdb \
-    puppet-openstack \
     puppet-puppet \
     puppet-qpid \
     puppetlabs-rabbitmq \

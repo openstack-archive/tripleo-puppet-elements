@@ -19,7 +19,6 @@ puppetlabs-mysql git /opt/stack/puppet-modules/mysql https://github.com/puppetla
 puppet-neutron git /opt/stack/puppet-modules/neutron https://github.com/stackforge/puppet-neutron.git
 puppet-nova git /opt/stack/puppet-modules/nova https://github.com/stackforge/puppet-nova.git
 puppet-nssdb git /opt/stack/puppet-modules/nssdb https://github.com/rcritten/puppet-nssdb.git
-puppet-openstack git /opt/stack/puppet-modules/openstack https://github.com/stackforge/puppet-openstack.git
 puppet-puppet git /opt/stack/puppet-modules/puppet https://github.com/purpleidea/puppet-puppet.git
 puppet-qpid git /opt/stack/puppet-modules/qpid https://github.com/dprince/puppet-qpid.git
 puppetlabs-rabbitmq git /opt/stack/puppet-modules/rabbitmq https://github.com/puppetlabs/puppetlabs-rabbitmq.git
