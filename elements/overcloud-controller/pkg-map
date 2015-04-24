@@ -1,11 +1,16 @@
 {
+  "distro": {
+    "rhel7": {
+      "ceph_mon_package": "ceph-mon"
+    }
+  },
   "default": {
     "ceilometer_alarm_package": "openstack-ceilometer-alarm",
     "ceilometer_api_package": "openstack-ceilometer-api",
     "ceilometer_central_package": "openstack-ceilometer-central",
     "ceilometer_collector_package": "openstack-ceilometer-collector",
     "ceilometer_notification_package": "openstack-ceilometer-notification",
-    "ceph_package": "ceph",
+    "ceph_mon_package": "ceph",
     "cinder_package": "openstack-cinder",
     "glance_package": "openstack-glance",
     "haproxy_package": "haproxy",

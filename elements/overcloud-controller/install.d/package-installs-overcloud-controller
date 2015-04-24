@@ -3,7 +3,7 @@ ceilometer_api_package
 ceilometer_central_package
 ceilometer_collector_package
 ceilometer_notification_package
-ceph_package
+ceph_mon_package
 cinder_package
 glance_package
 haproxy_package

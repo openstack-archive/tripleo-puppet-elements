@@ -1,7 +1,7 @@
 {
   "default": {
     "ceilometer_compute_package": "openstack-ceilometer-compute",
-    "ceph": "ceph",
+    "ceph_package": "ceph",
     "libvirt_package": "libvirt",
     "neutron_package": "openstack-neutron",
     "neutron_ml2_package": "openstack-neutron-ml2",

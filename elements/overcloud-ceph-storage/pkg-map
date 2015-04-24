@@ -1,5 +1,10 @@
 {
+  "distro": {
+    "rhel7": {
+      "ceph_osd_package": "ceph-osd"
+    }
+  },
   "default": {
-    "ceph": "ceph"
+    "ceph_osd_package": "ceph"
   }
 }

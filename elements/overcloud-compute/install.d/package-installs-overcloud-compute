@@ -1,5 +1,5 @@
 ceilometer_compute_package
-ceph
+ceph_package
 libvirt_package
 neutron_package
 neutron_ml2_package
