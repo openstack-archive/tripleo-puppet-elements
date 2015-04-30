@@ -1,3 +1,5 @@
+DIB_INSTALLTYPE_puppet_modules=${DIB_INSTALLTYPE_puppet_modules:-"source"}
+
 if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
   for name in \
     puppetlabs-apache \
