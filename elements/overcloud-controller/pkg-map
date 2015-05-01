@@ -25,6 +25,7 @@
     "memcached_package": "memcached",
     "mongodb_client_package": "mongodb",
     "mongodb_server_package": "mongodb-server",
+    "neutron_metering_package": "openstack-neutron-metering-agent",
     "neutron_ml2_package": "openstack-neutron-ml2",
     "neutron_openvswitch_package": "openstack-neutron-openvswitch",
     "neutron_package": "openstack-neutron",
