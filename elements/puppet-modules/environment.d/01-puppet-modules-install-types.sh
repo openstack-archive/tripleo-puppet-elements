@@ -1,5 +1,5 @@
 if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
-  for name in \
+  for module_name in \
     puppetlabs-apache \
     puppet-ceph \
     puppet-ceilometer \
@@ -49,6 +49,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppetlabs-corosync \
     puppet-pacemaker \
     puppet-tuskar; do
-    export DIB_INSTALLTYPE_${name//\-/_}='source'
+    export DIB_INSTALLTYPE_${module_name//\-/_}='source'
   done
 fi
