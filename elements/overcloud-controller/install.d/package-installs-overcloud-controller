@@ -18,6 +18,7 @@ mariadb_server_package
 mongodb_client_package
 mongodb_server_package
 memcached_package
+neutron_metering_package
 neutron_ml2_package
 neutron_openvswitch_package
 neutron_package
