@@ -3,7 +3,7 @@
 # Configure hiera datafiles based on Heat metadata.
 set -eu
 
-mkdir -p /etc/puppet/hieradata
+(umask 077 ; mkdir -p /etc/puppet/hieradata)
 
 function write_oac_data() {
   local key=$1
