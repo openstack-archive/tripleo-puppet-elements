@@ -16,6 +16,8 @@ heat_engine_package
 horizon_package
 iscsi_package
 keystone_package
+manila_package
+manila_share_package
 mariadb_package
 mariadb_server_package
 mongodb_client_package
