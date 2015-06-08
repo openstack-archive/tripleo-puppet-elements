@@ -12,6 +12,7 @@ heat_api_cloudwatch_package
 heat_api_package
 heat_engine_package
 horizon_package
+iscsi_package
 keystone_package
 mariadb_package
 mariadb_server_package
@@ -23,6 +24,7 @@ neutron_lbaas_package
 neutron_ml2_package
 neutron_openvswitch_package
 neutron_package
+nfs_package
 nova_api_package
 nova_cert_package
 nova_conductor_package
