@@ -37,10 +37,22 @@ function write_mapped_data() {
 
   for i in $(seq 0 $COUNT); do
     local KEY=$(jq -r ".[$i]" <<< $HIERA_DATAMAP_KEYS)
-    local VALUE=$(jq -r -a ".[\"$KEY\"]" <<< $HIERA_DATA)
-    # Quote multi-line strings for YAML
-    if [ $(echo -ne "$VALUE" | grep -c '$') -gt 1 ]; then
-      echo "$KEY: '$VALUE'" >> $filename
+    local TYPE=$(jq -r ".[\"$KEY\"] | type" <<< $HIERA_DATA)
+    local VALUE=$(jq -a ".[\"$KEY\"]" <<< $HIERA_DATA)
+
+    # FIXME: We should pass data types unchanged from Heat metadata to
+    # hiera. For now we need to treat single-line strings as raw data
+    # because we already depend on this in tripleo-heat-templates
+    # (e.g. we generate strings which look like arrays and depend on
+    # them being processed as real arrays in hiera).
+    if [ "$TYPE" = "string" ]; then
+      local RAW_VALUE=$(jq -r -a ".[\"$KEY\"]" <<< $HIERA_DATA)
+      # Treat single-line strings as raw data
+      if [ $(echo -ne "$RAW_VALUE" | grep -c '$') -gt 1 ]; then
+        echo "$KEY: $VALUE" >> $filename
+      else
+        echo "$KEY: $RAW_VALUE" >> $filename
+      fi
     else
       echo "$KEY: $VALUE" >> $filename
     fi
