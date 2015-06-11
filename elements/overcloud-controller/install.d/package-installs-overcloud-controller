@@ -5,6 +5,8 @@ ceilometer_collector_package
 ceilometer_notification_package
 ceph_mon_package
 cinder_package
+fence_agents_package
+fence_virt_package
 glance_package
 haproxy_package
 heat_api_cfn_package

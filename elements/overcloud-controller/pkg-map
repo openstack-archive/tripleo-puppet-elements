@@ -12,6 +12,8 @@
     "ceilometer_notification_package": "openstack-ceilometer-notification",
     "ceph_mon_package": "ceph",
     "cinder_package": "openstack-cinder",
+    "fence_agents_package": "fence-agents-all",
+    "fence_virt_package": "fence-virt",
     "glance_package": "openstack-glance",
     "haproxy_package": "haproxy",
     "heat_api_cfn_package": "openstack-heat-api-cfn",
