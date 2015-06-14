@@ -33,7 +33,7 @@ puppetlabs-sysctl git /opt/stack/puppet-modules/sysctl https://github.com/puppet
 puppet-tempest git /opt/stack/puppet-modules/tempest https://git.openstack.org/openstack/puppet-tempest.git
 puppetlabs-vcsrepo git /opt/stack/puppet-modules/vcsrepo https://github.com/puppetlabs/puppetlabs-vcsrepo.git
 puppet-vlan git /opt/stack/puppet-modules/vlan https://github.com/derekhiggins/puppet-vlan.git
-puppet-vswitch git /opt/stack/puppet-modules/vswitch https://git.openstack.org/stackforge/puppet-vswitch.git
+puppet-vswitch git /opt/stack/puppet-modules/vswitch https://git.openstack.org/openstack/puppet-vswitch.git
 puppetlabs-xinetd git /opt/stack/puppet-modules/xinetd https://github.com/puppetlabs/puppetlabs-xinetd.git
 puppet-openstacklib git /opt/stack/puppet-modules/openstacklib https://git.openstack.org/openstack/puppet-openstacklib.git
 puppet-module-keepalived git /opt/stack/puppet-modules/keepalived https://github.com/Unyonsys/puppet-module-keepalived.git
