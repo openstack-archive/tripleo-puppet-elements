@@ -7,6 +7,7 @@
     "neutron_ml2_package": "openstack-neutron-ml2",
     "neutron_openvswitch_package": "openstack-neutron-openvswitch",
     "nova_compute_package": "openstack-nova-compute",
+    "ntp_package": "ntp",
     "pacemaker_remote_package": "pacemaker-remote"
   }
 }

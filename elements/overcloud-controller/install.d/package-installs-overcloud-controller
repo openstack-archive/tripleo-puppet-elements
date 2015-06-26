@@ -33,6 +33,7 @@ nova_conductor_package
 nova_console_package
 nova_novncproxy_package
 nova_scheduler_package
+ntp_package
 pacemaker_package
 pcs_package
 python_openstackclient_package
