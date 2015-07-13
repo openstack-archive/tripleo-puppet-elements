@@ -10,6 +10,7 @@ puppet-glance git /opt/stack/puppet-modules/glance https://git.openstack.org/ope
 puppet-gluster git /opt/stack/puppet-modules/gluster https://github.com/purpleidea/puppet-gluster.git
 puppetlabs-haproxy git /opt/stack/puppet-modules/haproxy https://github.com/puppetlabs/puppetlabs-haproxy.git
 puppet-heat git /opt/stack/puppet-modules/heat https://git.openstack.org/openstack/puppet-heat.git
+puppet-healthcheck git /opt/stack/puppet-modules/healthcheck https://github.com/puppet-community/puppet-healthcheck.git
 puppet-horizon git /opt/stack/puppet-modules/horizon https://git.openstack.org/openstack/puppet-horizon.git
 puppetlabs-inifile git /opt/stack/puppet-modules/inifile https://github.com/puppetlabs/puppetlabs-inifile.git
 puppet-keystone git /opt/stack/puppet-modules/keystone https://git.openstack.org/openstack/puppet-keystone.git
