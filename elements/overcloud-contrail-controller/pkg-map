@@ -1,0 +1,9 @@
+{
+  "default": {
+    "contrail_analytics_package": "contrail-openstack-analytics",
+    "contrail_config_package": "contrail-openstack-config",
+    "contrail_control_package": "contrail-openstack-control",
+    "contrail_database_package": "contrail-openstack-database",
+    "contrail_webui_package": "contrail-openstack-webui"
+  }
+}
