@@ -13,6 +13,7 @@ puppet-heat git /opt/stack/puppet-modules/heat https://git.openstack.org/opensta
 puppet-horizon git /opt/stack/puppet-modules/horizon https://git.openstack.org/openstack/puppet-horizon.git
 puppetlabs-inifile git /opt/stack/puppet-modules/inifile https://github.com/puppetlabs/puppetlabs-inifile.git
 puppet-keystone git /opt/stack/puppet-modules/keystone https://git.openstack.org/openstack/puppet-keystone.git
+puppet-manila git /opt/stack/puppet-modules/manila https://git.openstack.org/openstack/puppet-manila.git
 puppet-memcached git /opt/stack/puppet-modules/memcached https://github.com/saz/puppet-memcached.git
 puppetlabs-mongodb git /opt/stack/puppet-modules/mongodb https://github.com/puppetlabs/puppetlabs-mongodb.git
 puppetlabs-mysql git /opt/stack/puppet-modules/mysql https://github.com/puppetlabs/puppetlabs-mysql.git
