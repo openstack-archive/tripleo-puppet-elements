@@ -43,6 +43,9 @@ python_memcached_package
 rabbitmq_server_package
 redis_client_package
 redis_server_package
+sahara_api_package
+sahara_engine_package
+sahara_package
 swift_account_package
 swift_container_package
 swift_object_package
