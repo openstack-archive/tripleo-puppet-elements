@@ -15,6 +15,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-gluster \
     puppetlabs-haproxy \
     puppet-heat \
+    puppet-healthcheck \
     puppet-horizon \
     puppetlabs-inifile \
     puppet-keystone \
