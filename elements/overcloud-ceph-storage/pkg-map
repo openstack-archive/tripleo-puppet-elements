@@ -5,6 +5,7 @@
     }
   },
   "default": {
-    "ceph_osd_package": "ceph"
+    "ceph_osd_package": "ceph",
+    "ntp_package": "ntp"
   }
 }

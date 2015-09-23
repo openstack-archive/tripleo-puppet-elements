@@ -1,6 +1,7 @@
 {
   "default": {
     "cinder_package": "openstack-cinder",
+    "ntp_package": "ntp",
     "targetcli_package": "targetcli",
     "tgt_package": "scsi-target-utils"
   }

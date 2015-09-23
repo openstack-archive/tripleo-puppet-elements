@@ -6,4 +6,5 @@ neutron_ml2_package
 neutron_openvswitch_package
 nfs_package
 nova_compute_package
+ntp_package
 pacemaker_remote_package
