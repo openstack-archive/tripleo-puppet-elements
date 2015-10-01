@@ -36,6 +36,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-redis \
     puppetlabs-rsync \
     puppet-sahara \
+    puppet-trove \
     puppet-ssh \
     puppet-staging \
     puppetlabs-stdlib \
