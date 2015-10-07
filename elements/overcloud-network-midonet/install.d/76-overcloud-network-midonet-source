@@ -1,0 +1,3 @@
+set -eux
+
+ln -f -s /opt/stack/puppet-midonet/* /etc/puppet/modules
