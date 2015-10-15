@@ -3,11 +3,13 @@ DIB_INSTALLTYPE_puppet_modules=${DIB_INSTALLTYPE_puppet_modules:-"source"}
 if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
   for module_name in \
     puppetlabs-apache \
+    puppet-cassandra \
     puppet-ceph \
     puppet-ceilometer \
     puppet-certmonger \
     puppet-cinder \
     puppet-common \
+    puppet-contrail \
     puppetlabs-concat \
     puppetlabs-firewall \
     puppet-galera \
@@ -18,6 +20,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-healthcheck \
     puppet-horizon \
     puppetlabs-inifile \
+    puppet-kafka \
     puppet-keystone \
     puppet-memcached \
     puppetlabs-mongodb \
@@ -41,6 +44,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-vlan \
     puppet-vswitch \
     puppetlabs-xinetd \
+    puppet-zookeeper \
     puppet-openstacklib \
     puppet-module-keepalived \
     puppetlabs-ntp \
