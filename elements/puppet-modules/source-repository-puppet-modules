@@ -1,6 +1,6 @@
 puppetlabs-apache git /opt/stack/puppet-modules/apache https://github.com/puppetlabs/puppetlabs-apache.git
 puppet-cassandra git /opt/stack/puppet-modules/cassandra  https://github.com/locp/cassandra.git
-puppet-ceph git /opt/stack/puppet-modules/ceph https://git.openstack.org/stackforge/puppet-ceph.git
+puppet-ceph git /opt/stack/puppet-modules/ceph https://git.openstack.org/openstack/puppet-ceph.git
 puppet-ceilometer git /opt/stack/puppet-modules/ceilometer https://git.openstack.org/openstack/puppet-ceilometer.git
 puppet-certmonger git /opt/stack/puppet-modules/certmonger https://github.com/rcritten/puppet-certmonger.git
 puppet-cinder git /opt/stack/puppet-modules/cinder https://git.openstack.org/openstack/puppet-cinder.git
