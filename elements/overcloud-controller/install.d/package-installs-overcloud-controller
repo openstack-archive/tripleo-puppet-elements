@@ -6,6 +6,11 @@ ceilometer_api_package
 ceilometer_central_package
 ceilometer_collector_package
 ceilometer_notification_package
+gnocchi_api_package
+gnocchi_indexer_package
+gnocchi_carbonara_package
+gnocchi_statsd_package
+gnocchi_metricd_package
 ceph_mon_package
 cinder_package
 fence_agents_package
