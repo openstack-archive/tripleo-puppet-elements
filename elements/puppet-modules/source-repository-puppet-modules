@@ -15,7 +15,7 @@ puppet-heat git /opt/stack/puppet-modules/heat https://git.openstack.org/opensta
 puppet-healthcheck git /opt/stack/puppet-modules/healthcheck https://github.com/puppet-community/puppet-healthcheck.git
 puppet-horizon git /opt/stack/puppet-modules/horizon https://git.openstack.org/openstack/puppet-horizon.git
 puppetlabs-inifile git /opt/stack/puppet-modules/inifile https://github.com/puppetlabs/puppetlabs-inifile.git
-puppet-kakfa git /opt/stack/puppet-modules/kakfa https://github.com/puppet-community/puppet-kafka.git
+puppet-kafka git /opt/stack/puppet-modules/kafka https://github.com/puppet-community/puppet-kafka.git
 puppet-keystone git /opt/stack/puppet-modules/keystone https://git.openstack.org/openstack/puppet-keystone.git
 puppet-manila git /opt/stack/puppet-modules/manila https://git.openstack.org/openstack/puppet-manila.git
 puppet-memcached git /opt/stack/puppet-modules/memcached https://github.com/saz/puppet-memcached.git
