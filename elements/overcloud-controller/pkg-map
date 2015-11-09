@@ -44,6 +44,7 @@
     "nova_scheduler_package": "openstack-nova-scheduler",
     "ntp_package": "ntp",
     "python_openstackclient_package": "python-openstackclient",
+    "python_memcached_package": "python-memcached",
     "pacemaker_package": "pacemaker",
     "pcs_package": "pcs",
     "rabbitmq_server_package": "rabbitmq-server",
