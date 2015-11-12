@@ -55,6 +55,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet_aviator \
     puppetlabs-corosync \
     puppet-pacemaker \
+    puppet-manila \
     puppet-tuskar; do
     export DIB_INSTALLTYPE_${module_name//\-/_}='source'
   done
