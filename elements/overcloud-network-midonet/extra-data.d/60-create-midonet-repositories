@@ -1,0 +1,22 @@
+#!/bin/bash
+
+set -eux
+
+if [ "${DIB_MIDONET_release}" = "OSS" ]; then
+  MIDONET_REPOS_FILE=midonet-oss
+elif [ "${DIB_MIDONET_release}" = "MEM" ]; then
+  MIDONET_REPOS_FILE=midonet-mem
+else
+  exit 1;
+fi
+
+MIDONET_REPOS_DIR=$TMP_MOUNT_PATH/etc/yum.repos.d
+MIDONET_TARGET_FILE_NAME=MidoNet.repo
+
+mkdir -p $MIDONET_REPOS_DIR
+
+# Replace the env vars of the MEM repo using env vars
+# http://superuser.com/questions/235738/how-do-i-substitute-environment-variables-when-i-ouput-a-file
+function subst() { eval echo -E "$2"; }
+mapfile -c 1 -C subst < $TMP_HOOKS_PATH/extra-data.d/$MIDONET_REPOS_FILE > /tmp/repo
+sudo mv /tmp/repo $MIDONET_REPOS_DIR/$MIDONET_TARGET_FILE_NAME

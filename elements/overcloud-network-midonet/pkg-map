@@ -1,0 +1,15 @@
+{
+  "default": {
+    "midonet_package": "midolman",
+    "midonet_neutron_package": "python-networking-midonet",
+    "midonet_api_package": "midonet-api",
+    "tomcat_package": "tomcat",
+    "zookeeper_package": "zookeeper",
+    "cassandra_package": "dsc20",
+    "deltarpm_package": "deltarpm",
+    "augeas_package": "augeas",
+    "augeasdevel_package": "augeas-devel",
+    "rubydevel_package": "ruby-devel",
+    "rubygem_json_package": "rubygem-json"
+  }
+}
