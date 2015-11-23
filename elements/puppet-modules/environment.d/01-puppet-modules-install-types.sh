@@ -23,6 +23,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-kafka \
     puppet-keystone \
     puppet-memcached \
+    puppet-mistral \
     puppetlabs-mongodb \
     puppetlabs-mysql \
     puppet-neutron \
