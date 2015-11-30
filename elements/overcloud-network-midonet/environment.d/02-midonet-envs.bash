@@ -6,7 +6,6 @@ export DIB_MIDONET_mem_password=${DIB_MIDONET_mem_password:-} # Password of the 
 export DIB_INSTALLTYPE_ripienar_module_data='source'
 export DIB_INSTALLTYPE_puppetlabs_java='source'
 export DIB_INSTALLTYPE_puppetlabs_apt='source'
-export DIB_INSTALLTYPE_midonet_cassandra='source'
 export DIB_INSTALLTYPE_richardc_datacat='source'
 export DIB_INSTALLTYPE_deric_zookeeper='source'
 export DIB_INSTALLTYPE_nanliu_staging='source'
