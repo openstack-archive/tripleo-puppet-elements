@@ -1,7 +1,6 @@
 ripienar-module_data git /opt/stack/puppet-midonet/module_data https://github.com/ripienaar/puppet-module-data.git 0.0.3
 puppetlabs-java git /opt/stack/puppet-midonet/java https://github.com/puppetlabs/puppetlabs-java
 puppetlabs-apt git /opt/stack/puppet-midonet/apt https://github.com/puppetlabs/puppetlabs-apt.git 47c6f338eda98ed849531d92b63c5e33103f76e4
-midonet-cassandra git /opt/stack/puppet-midonet/cassandra https://github.com/midonet/puppet-cassandra.git 09dd80b226e14e66968509051a02b143fbb6bcc3
 richardc-datacat git /opt/stack/puppet-midonet/datacat https://github.com/richardc/puppet-datacat.git
 deric-zookeeper git /opt/stack/puppet-midonet/zookeeper https://github.com/deric/puppet-zookeeper.git b1912045ac65f13e53d60f73515ad08fff4f4f25
 nanliu-staging git /opt/stack/puppet-midonet/staging https://github.com/nanliu/puppet-staging.git bc434a71e19aae54223d57c274e2e1a7f9546d5e
