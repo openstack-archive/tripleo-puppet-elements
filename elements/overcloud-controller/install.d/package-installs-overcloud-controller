@@ -41,6 +41,7 @@ pcs_package
 python_openstackclient_package
 python_memcached_package
 rabbitmq_server_package
+redis_client_package
 redis_server_package
 swift_account_package
 swift_container_package

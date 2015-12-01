@@ -48,6 +48,7 @@
     "pacemaker_package": "pacemaker",
     "pcs_package": "pcs",
     "rabbitmq_server_package": "rabbitmq-server",
+    "redis_client_package": "python-redis",
     "redis_server_package": "redis",
     "swift_account_package": "openstack-swift-account",
     "swift_container_package": "openstack-swift-container",
