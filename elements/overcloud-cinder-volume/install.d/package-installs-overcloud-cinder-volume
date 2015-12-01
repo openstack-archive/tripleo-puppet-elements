@@ -1,4 +1,5 @@
 cinder_package
 ntp_package
+sensu_package
 targetcli_package
 tgt_package
