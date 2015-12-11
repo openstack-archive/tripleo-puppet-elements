@@ -1,3 +1,5 @@
 ceph_osd_package
+fluentd_package
 ntp_package
+rubygem_fluent_package
 sensu_package

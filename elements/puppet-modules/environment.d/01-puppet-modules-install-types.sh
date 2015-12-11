@@ -12,8 +12,12 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-common \
     puppet-contrail \
     puppetlabs-concat \
+    puppet-datacat \
+    puppet-elasticsearch \
     puppetlabs-firewall \
+    konstantin-fluentd \
     puppet-galera \
+    puppetlabs-git \
     puppet-glance \
     puppet-gluster \
     puppetlabs-haproxy \
@@ -23,6 +27,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppetlabs-inifile \
     puppet-kafka \
     puppet-keystone \
+    puppet-kibana3 \
     puppet-memcached \
     puppet-mistral \
     puppetlabs-mongodb \

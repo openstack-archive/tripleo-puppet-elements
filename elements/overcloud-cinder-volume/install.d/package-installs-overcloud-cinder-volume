@@ -1,5 +1,7 @@
 cinder_package
+fluentd_package
 ntp_package
+rubygem_fluent_package
 sensu_package
 targetcli_package
 tgt_package

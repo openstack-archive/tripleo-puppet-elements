@@ -6,7 +6,9 @@
   },
   "default": {
     "ceph_osd_package": "ceph",
+    "fluentd_package": "fluentd",
     "ntp_package": "ntp",
+    "rubygem_fluent_package": "rubygem-fluent-plugin-add",
     "sensu_package": "sensu"
   }
 }

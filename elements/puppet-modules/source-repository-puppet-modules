@@ -57,4 +57,9 @@ puppet-pacemaker git /opt/stack/puppet-modules/pacemaker https://github.com/redh
 puppet_aviator git /opt/stack/puppet-modules/aviator https://github.com/aimonb/puppet_aviator.git
 puppet-openstack_extras git /opt/stack/puppet-modules/openstack_extras https://git.openstack.org/openstack/puppet-openstack_extras.git
 puppet-tuskar git /opt/stack/puppet-modules/tuskar https://git.openstack.org/openstack/puppet-tuskar.git
+konstantin-fluentd git /opt/stack/puppet-modules/fluentd https://github.com/soylent/konstantin-fluentd.git
+puppet-elasticsearch git /opt/stack/puppet-modules/elasticsearch https://github.com/elastic/puppet-elasticsearch.git
+puppet-kibana3 git /opt/stack/puppet-modules/kibana3 https://github.com/thejandroman/puppet-kibana3.git
+puppetlabs-git git /opt/stack/puppet-modules/git https://github.com/puppetlabs/puppetlabs-git.git
+puppet-datacat git /opt/stack/puppet-modules/datacat https://github.com/richardc/puppet-datacat.git
 
