@@ -40,6 +40,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-swift \
     puppetlabs-sysctl \
     puppet-tempest \
+    puppet-timezone \
     puppetlabs-vcsrepo \
     puppet-vlan \
     puppet-vswitch \
