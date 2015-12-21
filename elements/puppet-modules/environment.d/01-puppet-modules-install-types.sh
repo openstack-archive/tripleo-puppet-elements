@@ -3,6 +3,7 @@ DIB_INSTALLTYPE_puppet_modules=${DIB_INSTALLTYPE_puppet_modules:-"source"}
 if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
   for module_name in \
     puppetlabs-apache \
+    puppet-aodh \
     puppet-cassandra \
     puppet-ceph \
     puppet-ceilometer \
