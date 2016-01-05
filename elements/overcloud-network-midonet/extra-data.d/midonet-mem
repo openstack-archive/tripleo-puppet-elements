@@ -14,7 +14,7 @@ gpgkey = https://rpm.datastax.com/rpm/repo_key
 
 [midonet-openstack-integration]
 name=MidoNet OpenStack Integration
-baseurl=http://builds.midonet.org/openstack-liberty/unstable/el7/
+baseurl=http://builds.midonet.org/openstack-liberty/stable/el7/
 enabled=1
 gpgcheck=1
 gpgkey=http://builds.midonet.org/midorepo.key
