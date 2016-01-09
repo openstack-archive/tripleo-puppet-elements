@@ -10,6 +10,7 @@
     "augeas_package": "augeas",
     "augeasdevel_package": "augeas-devel",
     "rubydevel_package": "ruby-devel",
-    "rubygem_json_package": "rubygem-json"
+    "rubygem_json_package": "rubygem-json",
+    "sensu_package": "sensu"
   }
 }

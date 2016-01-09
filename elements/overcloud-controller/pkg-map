@@ -56,6 +56,7 @@
     "sahara_package": "openstack-sahara",
     "sahara_api_package": "openstack-sahara-api",
     "sahara_engine_package": "openstack-sahara-engine",
+    "sensu_package": "sensu",
     "swift_account_package": "openstack-swift-account",
     "swift_container_package": "openstack-swift-container",
     "swift_object_package": "openstack-swift-object",

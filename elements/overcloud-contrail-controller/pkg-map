@@ -4,6 +4,7 @@
     "contrail_config_package": "contrail-openstack-config",
     "contrail_control_package": "contrail-openstack-control",
     "contrail_database_package": "contrail-openstack-database",
-    "contrail_webui_package": "contrail-openstack-webui"
+    "contrail_webui_package": "contrail-openstack-webui",
+    "sensu_package": "sensu"
   }
 }

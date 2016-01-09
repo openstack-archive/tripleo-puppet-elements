@@ -1,2 +1,3 @@
 ceph_osd_package
 ntp_package
+sensu_package

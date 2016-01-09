@@ -3,3 +3,4 @@ contrail_config_package
 contrail_control_package
 contrail_database_package
 contrail_webui_package
+sensu_package

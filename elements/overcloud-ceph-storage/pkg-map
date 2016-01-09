@@ -6,6 +6,7 @@
   },
   "default": {
     "ceph_osd_package": "ceph",
-    "ntp_package": "ntp"
+    "ntp_package": "ntp",
+    "sensu_package": "sensu"
   }
 }

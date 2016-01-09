@@ -9,6 +9,7 @@
     "nfs_package": "nfs-utils",
     "nova_compute_package": "openstack-nova-compute",
     "ntp_package": "ntp",
-    "pacemaker_remote_package": "pacemaker-remote"
+    "pacemaker_remote_package": "pacemaker-remote",
+    "sensu_package": "sensu"
   }
 }

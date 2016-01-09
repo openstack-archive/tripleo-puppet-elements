@@ -9,3 +9,4 @@ augeasdevel_package
 tomcat_package
 rubydevel_package
 rubygem_json_package
+sensu_package

@@ -49,6 +49,7 @@ redis_server_package
 sahara_api_package
 sahara_engine_package
 sahara_package
+sensu_package
 swift_account_package
 swift_container_package
 swift_object_package
