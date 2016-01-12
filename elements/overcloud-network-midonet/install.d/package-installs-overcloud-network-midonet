@@ -10,3 +10,5 @@ tomcat_package
 rubydevel_package
 rubygem_json_package
 sensu_package
+fluentd_package
+rubygem_fluent_package

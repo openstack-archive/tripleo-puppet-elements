@@ -5,6 +5,8 @@
     "contrail_control_package": "contrail-openstack-control",
     "contrail_database_package": "contrail-openstack-database",
     "contrail_webui_package": "contrail-openstack-webui",
+    "fluentd_package": "fluentd",
+    "rubygem_fluent_package": "rubygem-fluent-plugin-add",
     "sensu_package": "sensu"
   }
 }

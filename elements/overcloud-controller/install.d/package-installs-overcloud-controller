@@ -10,6 +10,7 @@ ceph_mon_package
 cinder_package
 fence_agents_package
 fence_virt_package
+fluentd_package
 glance_package
 haproxy_package
 heat_api_cfn_package
@@ -46,6 +47,7 @@ python_memcached_package
 rabbitmq_server_package
 redis_client_package
 redis_server_package
+rubygem_fluent_package
 sahara_api_package
 sahara_engine_package
 sahara_package

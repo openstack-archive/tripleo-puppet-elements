@@ -2,14 +2,17 @@
   "default": {
     "ceilometer_compute_package": "openstack-ceilometer-compute",
     "ceph_package": "ceph",
+    "fluentd_package": "fluentd",
     "libvirt_package": "libvirt",
     "neutron_package": "openstack-neutron",
     "neutron_ml2_package": "openstack-neutron-ml2",
     "neutron_openvswitch_package": "openstack-neutron-openvswitch",
+    "neutron_package": "openstack-neutron",
     "nfs_package": "nfs-utils",
     "nova_compute_package": "openstack-nova-compute",
     "ntp_package": "ntp",
     "pacemaker_remote_package": "pacemaker-remote",
+    "rubygem_fluent_package": "rubygem-fluent-plugin-add",
     "sensu_package": "sensu"
   }
 }
