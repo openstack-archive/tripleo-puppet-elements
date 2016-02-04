@@ -63,4 +63,4 @@ puppet-elasticsearch git /opt/stack/puppet-modules/elasticsearch https://github.
 puppet-kibana3 git /opt/stack/puppet-modules/kibana3 https://github.com/thejandroman/puppet-kibana3.git
 puppetlabs-git git /opt/stack/puppet-modules/git https://github.com/puppetlabs/puppetlabs-git.git
 puppet-datacat git /opt/stack/puppet-modules/datacat https://github.com/richardc/puppet-datacat.git
-
+puppet-kmod git /opt/stack/puppet-modules/kmod https://github.com/camptocamp/puppet-kmod.git
