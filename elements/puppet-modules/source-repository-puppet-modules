@@ -52,4 +52,4 @@ puppet-pacemaker git /opt/stack/puppet-modules/pacemaker https://github.com/redh
 puppet_aviator git /opt/stack/puppet-modules/aviator https://github.com/aimonb/puppet_aviator.git
 puppet-openstack_extras git /opt/stack/puppet-modules/openstack_extras https://git.openstack.org/openstack/puppet-openstack_extras.git
 puppet-tuskar git /opt/stack/puppet-modules/tuskar https://git.openstack.org/openstack/puppet-tuskar.git
-
+puppet-kmod git /opt/stack/puppet-modules/kmod https://github.com/camptocamp/puppet-kmod.git
