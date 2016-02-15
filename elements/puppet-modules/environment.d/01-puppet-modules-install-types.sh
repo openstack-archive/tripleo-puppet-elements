@@ -68,7 +68,8 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-tuskar \
     puppet-uchiwa \
     sensu-puppet \
-    puppet-kmod; do
+    puppet-kmod \
+    puppet-zaqar; do
     export DIB_INSTALLTYPE_${module_name//\-/_}='source'
   done
 fi
