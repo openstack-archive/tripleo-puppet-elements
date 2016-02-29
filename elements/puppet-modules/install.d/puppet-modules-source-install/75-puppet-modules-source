@@ -1,4 +1,9 @@
 #!/bin/bash
 set -eux
 
+# Symlink modules to the expected location.
+# Modules installed from source take precedence.
+if (find /usr/share/openstack-puppet/modules/ -mindepth 1 2>/dev/null) | read; then
+  ln -f -s /usr/share/openstack-puppet/modules/* /etc/puppet/modules/
+fi
 ln -f -s /opt/stack/puppet-modules/* /etc/puppet/modules/
