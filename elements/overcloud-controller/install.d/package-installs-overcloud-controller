@@ -28,6 +28,7 @@ neutron_lbaas_package
 neutron_ml2_package
 neutron_openvswitch_package
 neutron_package
+networking_odl_package
 nfs_package
 nova_api_package
 nova_cert_package
