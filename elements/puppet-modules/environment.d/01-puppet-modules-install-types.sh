@@ -34,6 +34,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppetlabs-mysql \
     puppet-neutron \
     puppet-nova \
+    puppet-oslo \
     puppet-nssdb \
     puppet-puppet \
     puppet-qpid \
