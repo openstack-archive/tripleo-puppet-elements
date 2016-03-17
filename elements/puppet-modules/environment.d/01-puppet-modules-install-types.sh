@@ -4,6 +4,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
   for module_name in \
     puppetlabs-apache \
     puppet-aodh \
+    puppet-barbican \
     puppet-cassandra \
     puppet-ceph \
     puppet-ceilometer \
