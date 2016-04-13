@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -eux
+set -o pipefail
+
+#FIXME: this is a workaround for https://bugs.launchpad.net/oslo.config/+bug/1568820
+# truncate nova.conf to avoid the duplicate sections that break puppet-nova's
+# nova_config resource
+if [ -f /etc/nova/nova.conf ]; then
+  if [ ! -f /var/lib/nova-conf-truncated ]; then
+    cp /dev/null /etc/nova/nova.conf
+    touch /var/lib/nova-conf-truncated
+  fi
+fi
