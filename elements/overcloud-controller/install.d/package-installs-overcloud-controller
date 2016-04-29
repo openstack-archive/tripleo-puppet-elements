@@ -12,6 +12,7 @@ gnocchi_carbonara_package
 gnocchi_statsd_package
 gnocchi_metricd_package
 ceph_mon_package
+ceph_rgw_package
 cinder_package
 fence_agents_package
 fence_virt_package
