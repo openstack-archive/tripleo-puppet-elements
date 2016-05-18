@@ -1,4 +1,5 @@
-DIB_INSTALLTYPE_puppet_modules=${DIB_INSTALLTYPE_puppet_modules:-"source"}
+DIB_DEFAULT_INSTALLTYPE=${DIB_DEFAULT_INSTALLTYPE:-"source"}
+DIB_INSTALLTYPE_puppet_modules=${DIB_INSTALLTYPE_puppet_modules:-"$DIB_DEFAULT_INSTALLTYPE"}
 
 if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
   for module_name in \
