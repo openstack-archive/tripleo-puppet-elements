@@ -2,6 +2,4 @@
 
 set -eux
 
-install-packages -m puppet-modules puppet_modules_package
-
 ln -f -s /usr/share/openstack-puppet/modules/* /etc/puppet/modules/
