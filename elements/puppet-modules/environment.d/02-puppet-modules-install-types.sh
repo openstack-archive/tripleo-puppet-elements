@@ -39,6 +39,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-nova \
     puppet-oslo \
     puppet-nssdb \
+    puppet-ovn \
     puppet-puppet \
     puppetlabs-rabbitmq \
     puppet-redis \

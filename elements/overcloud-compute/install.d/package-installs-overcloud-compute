@@ -9,6 +9,7 @@ neutron_sriov_agent_package
 nfs_package
 nova_compute_package
 ntp_package
+openvswitch_ovn_compute_package
 pacemaker_remote_package
 rubygem_fluent_package
 sensu_package
