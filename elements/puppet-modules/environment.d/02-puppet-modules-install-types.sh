@@ -40,7 +40,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-oslo \
     puppet-nssdb \
     puppet-puppet \
-    puppet-qpid \
     puppetlabs-rabbitmq \
     puppet-redis \
     puppetlabs-rsync \
