@@ -57,6 +57,7 @@ nova_novncproxy_package
 nova_scheduler_package
 ntp_package
 openvswitch_ovn_controller_package
+oschecks_package
 pacemaker_package
 pcs_package
 python_cradox_package

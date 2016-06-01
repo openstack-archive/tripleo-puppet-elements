@@ -68,6 +68,7 @@
     "ntp_package": "ntp",
     "openvswitch_ovn_controller_package": "openvswitch-ovn-central",
     "python_cradox_package": "python-cradox",
+    "oschecks_package": "osops-tools-monitoring-oschecks",
     "python_openstackclient_package": "python-openstackclient",
     "python_memcached_package": "python-memcached",
     "pacemaker_package": "pacemaker",

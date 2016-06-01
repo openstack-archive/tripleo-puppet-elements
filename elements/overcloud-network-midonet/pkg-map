@@ -11,7 +11,7 @@
     "rubydevel_package": "ruby-devel",
     "rubygem_fluent_package": "rubygem-fluent-plugin-add",
     "rubygem_json_package": "rubygem-json",
-    "sensu_package": "sensu"
+    "oschecks_package": "osops-tools-monitoring-oschecks",
     "sensu_package": "sensu",
     "tomcat_package": "tomcat",
     "zookeeper_package": "zookeeper"

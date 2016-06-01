@@ -13,6 +13,7 @@
     "nova_compute_package": "openstack-nova-compute",
     "ntp_package": "ntp",
     "openvswitch_ovn_compute_package": "openvswitch-ovn-host",
+    "oschecks_package": "osops-tools-monitoring-oschecks",
     "pacemaker_remote_package": "pacemaker-remote",
     "rubygem_fluent_package": "rubygem-fluent-plugin-add",
     "sensu_package": "sensu"

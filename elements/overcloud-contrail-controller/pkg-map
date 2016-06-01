@@ -6,6 +6,7 @@
     "contrail_database_package": "contrail-openstack-database",
     "contrail_webui_package": "contrail-openstack-webui",
     "fluentd_package": "fluentd",
+    "oschecks_package": "osops-tools-monitoring-oschecks",
     "rubygem_fluent_package": "rubygem-fluent-plugin-add",
     "sensu_package": "sensu"
   }

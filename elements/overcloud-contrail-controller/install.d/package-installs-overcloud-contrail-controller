@@ -4,5 +4,6 @@ contrail_control_package
 contrail_database_package
 contrail_webui_package
 fluentd_package
+oschecks_package
 rubygem_fluent_package
 sensu_package
