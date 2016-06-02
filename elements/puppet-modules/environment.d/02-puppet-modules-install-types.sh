@@ -10,7 +10,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-ceph \
     puppet-ceilometer \
     puppet-gnocchi \
-    puppet-certmonger \
     puppet-cinder \
     puppet-common \
     puppet-contrail \
