@@ -34,6 +34,8 @@
     "heat_api_package": "openstack-heat-api",
     "heat_engine_package": "openstack-heat-engine",
     "horizon_package": "openstack-dashboard",
+    "ironic_api_package": "openstack-ironic-api",
+    "ironic_conductor_package": "openstack-ironic-conductor",
     "iscsi_package": "iscsi-initiator-utils",
     "keystone_package": "openstack-keystone",
     "manila_package": "openstack-manila",
