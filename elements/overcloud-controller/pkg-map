@@ -81,6 +81,7 @@
     "swift_proxy_package": "openstack-swift-proxy",
     "targetcli_package": "targetcli",
     "tgt_package": "scsi-target-utils",
-    "xinetd_package": "xinetd"
+    "xinetd_package": "xinetd",
+    "zaqar_package": "openstack-zaqar"
   }
 }
