@@ -53,6 +53,7 @@
     "nova_novncproxy_package": "openstack-nova-novncproxy",
     "nova_scheduler_package": "openstack-nova-scheduler",
     "ntp_package": "ntp",
+    "python_cradox_package": "python-cradox",
     "python_openstackclient_package": "python-openstackclient",
     "python_memcached_package": "python-memcached",
     "pacemaker_package": "pacemaker",
