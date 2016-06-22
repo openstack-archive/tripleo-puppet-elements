@@ -53,7 +53,7 @@ nova_scheduler_package
 ntp_package
 pacemaker_package
 pcs_package
-python_cardox_package
+python_cradox_package
 python_openstackclient_package
 python_memcached_package
 rabbitmq_server_package
