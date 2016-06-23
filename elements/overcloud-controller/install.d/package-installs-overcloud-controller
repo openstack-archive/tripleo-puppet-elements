@@ -75,3 +75,4 @@ swift_proxy_package
 targetcli_package
 tgt_package
 xinetd_package
+zaqar_package
