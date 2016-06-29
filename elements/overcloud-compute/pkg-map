@@ -2,6 +2,8 @@
   "default": {
     "ceilometer_compute_package": "openstack-ceilometer-compute",
     "ceph_package": "ceph",
+    "dpdk_package": "dpdk",
+    "driverctl_package": "driverctl",
     "fluentd_package": "fluentd",
     "libvirt_package": "libvirt",
     "neutron_package": "openstack-neutron",
