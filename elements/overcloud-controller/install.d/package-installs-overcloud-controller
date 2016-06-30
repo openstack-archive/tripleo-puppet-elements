@@ -34,6 +34,10 @@ manila_package
 manila_share_package
 mariadb_package
 mariadb_server_package
+mistral_api_package
+mistral_engine_package
+mistral_executor_package
+mistral_package
 mongodb_client_package
 mongodb_server_package
 memcached_package
