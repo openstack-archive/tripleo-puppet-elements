@@ -58,7 +58,7 @@ puppet-snmp git /opt/stack/puppet-modules/snmp https://github.com/razorsedge/pup
 puppet-tripleo git /opt/stack/puppet-modules/tripleo https://git.openstack.org/openstack/puppet-tripleo.git
 puppet-ironic git /opt/stack/puppet-modules/ironic https://git.openstack.org/openstack/puppet-ironic.git
 puppetlabs-corosync git /opt/stack/puppet-modules/corosync https://github.com/puppetlabs/puppetlabs-corosync.git
-puppet-pacemaker git /opt/stack/puppet-modules/pacemaker https://github.com/openstack/puppet-pacemaker.git
+puppet-pacemaker git /opt/stack/puppet-modules/pacemaker https://git.openstack.org/openstack/puppet-pacemaker.git
 puppet_aviator git /opt/stack/puppet-modules/aviator https://github.com/aimonb/puppet_aviator.git
 puppet-openstack_extras git /opt/stack/puppet-modules/openstack_extras https://git.openstack.org/openstack/puppet-openstack_extras.git
 konstantin-fluentd git /opt/stack/puppet-modules/fluentd https://github.com/soylent/konstantin-fluentd.git
