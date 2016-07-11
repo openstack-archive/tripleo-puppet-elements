@@ -47,6 +47,7 @@ neutron_ml2_package
 neutron_openvswitch_package
 neutron_package
 networking_odl_package
+networking_ovn_package
 nfs_package
 nova_api_package
 nova_cert_package
@@ -55,6 +56,7 @@ nova_console_package
 nova_novncproxy_package
 nova_scheduler_package
 ntp_package
+openvswitch_ovn_controller_package
 pacemaker_package
 pcs_package
 python_cradox_package
