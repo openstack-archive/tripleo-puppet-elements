@@ -65,6 +65,7 @@
     "sahara_package": "openstack-sahara",
     "sahara_api_package": "openstack-sahara-api",
     "sahara_engine_package": "openstack-sahara-engine",
+    "sahara_ui_package": "openstack-sahara-ui",
     "sensu_package": "sensu",
     "trove_api_package": "openstack-trove-api",
     "trove_conductor_package": "openstack-trove-conductor",
