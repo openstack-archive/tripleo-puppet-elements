@@ -1,4 +1,5 @@
 export DIB_MIDONET_release=${DIB_MIDONET_release:-"OSS"} # Available values OSS/MEM. To build MidoNet image with support or without it. Open Source version by default
+export DIB_MIDONET_openstack_version=${DIB_MIDONET_openstack_version:-"latest"} # OpenStack version of the midonet neutron plugin
 export DIB_MIDONET_mem_username=${DIB_MIDONET_mem_username:-} # Username of the yum repo. Only needed when DIB_MIDONET_version = "MEM"
 export DIB_MIDONET_mem_password=${DIB_MIDONET_mem_password:-} # Password of the yum repo. Only needed when DIB_MIDONET_version = "MEM"
 

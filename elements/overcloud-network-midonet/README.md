@@ -7,6 +7,7 @@ MidoNet MEM (MidoNet with customer support) can also be installed. To do so,
 build the image with the following environment variables:
 
   * DIB_MIDONET_release=MEM
+  * DIB_MIDONET_openstack_version=latest|mitaka|liberty|...
   * DIB_MIDONET_mem_username=yourcustomerrepousername
   * DIB_MIDONET_mem_password=yourcustomerrepopassword
 
