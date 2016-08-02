@@ -2,9 +2,7 @@ puppetlabs-apache git /opt/stack/puppet-modules/apache https://github.com/puppet
 puppet-aodh git /opt/stack/puppet-modules/aodh https://git.openstack.org/openstack/puppet-aodh.git
 puppet-barbican git /opt/stack/puppet-modules/barbican https://git.openstack.org/openstack/puppet-barbican.git
 puppet-cassandra git /opt/stack/puppet-modules/cassandra  https://github.com/locp/cassandra.git
-# Note: TripleO does not support Ceph Jewel yet, we're working on it in puppet-ceph.
-# Until this time, we need to pin puppet-ceph to stable/hammer.
-puppet-ceph git /opt/stack/puppet-modules/ceph https://git.openstack.org/openstack/puppet-ceph.git stable/hammer
+puppet-ceph git /opt/stack/puppet-modules/ceph https://git.openstack.org/openstack/puppet-ceph.git
 puppet-ceilometer git /opt/stack/puppet-modules/ceilometer https://git.openstack.org/openstack/puppet-ceilometer.git
 puppet-gnocchi git /opt/stack/puppet-modules/gnocchi https://git.openstack.org/openstack/puppet-gnocchi.git
 puppet-certmonger git /opt/stack/puppet-modules/certmonger https://github.com/earsdown/puppet-certmonger.git
