@@ -16,6 +16,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-contrail \
     puppetlabs-concat \
     puppet-datacat \
+    puppet-ec2api \
     puppet-elasticsearch \
     puppetlabs-firewall \
     konstantin-fluentd \
