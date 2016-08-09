@@ -1,5 +1,7 @@
 ceilometer_compute_package
 ceph_package
+dpdk_package
+driverctl_package
 fluentd_package
 libvirt_package
 neutron_package
