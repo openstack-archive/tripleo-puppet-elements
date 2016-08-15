@@ -40,6 +40,7 @@
     "keystone_package": "openstack-keystone",
     "manila_package": "openstack-manila",
     "manila_share_package": "openstack-manila-share",
+    "manila_ui_package": "openstack-manila-ui",
     "mariadb_package": "mariadb",
     "mariadb_server_package": "mariadb-galera-server",
     "memcached_package": "memcached",
