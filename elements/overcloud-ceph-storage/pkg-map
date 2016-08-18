@@ -1,11 +1,6 @@
 {
-  "distro": {
-    "rhel7": {
-      "ceph_osd_package": "ceph-osd"
-    }
-  },
   "default": {
-    "ceph_osd_package": "ceph",
+    "ceph_osd_package": "ceph-osd",
     "fluentd_package": "fluentd",
     "ntp_package": "ntp",
     "oschecks_package": "osops-tools-monitoring-oschecks",

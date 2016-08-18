@@ -1,10 +1,4 @@
 {
-  "distro": {
-    "rhel7": {
-      "ceph_mon_package": "ceph-mon",
-      "ceph_rgw_package": "ceph-radosgw"
-    }
-  },
   "default": {
     "aodh_api_package": "openstack-aodh-api",
     "aodh_notifier_package": "openstack-aodh-notifier",
@@ -15,8 +9,8 @@
     "ceilometer_central_package": "openstack-ceilometer-central",
     "ceilometer_collector_package": "openstack-ceilometer-collector",
     "ceilometer_notification_package": "openstack-ceilometer-notification",
-    "ceph_mon_package": "ceph",
-    "ceph_rgw_package": "ceph",
+    "ceph_mon_package": "ceph-mon",
+    "ceph_rgw_package": "ceph-radosgw",
     "certmonger": "certmonger",
     "cinder_package": "openstack-cinder",
     "fence_agents_package": "fence-agents-all",
