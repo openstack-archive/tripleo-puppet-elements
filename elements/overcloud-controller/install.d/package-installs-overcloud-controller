@@ -32,6 +32,7 @@ iscsi_package
 keystone_package
 manila_package
 manila_share_package
+manila_ui_package
 mariadb_package
 mariadb_server_package
 mistral_api_package
