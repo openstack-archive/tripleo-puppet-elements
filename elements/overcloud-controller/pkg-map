@@ -28,6 +28,7 @@
     "heat_api_package": "openstack-heat-api",
     "heat_engine_package": "openstack-heat-engine",
     "horizon_package": "openstack-dashboard",
+    "ipxe_bootimgs_package": "ipxe-bootimgs",
     "ironic_api_package": "openstack-ironic-api",
     "ironic_conductor_package": "openstack-ironic-conductor",
     "iscsi_package": "iscsi-initiator-utils",
@@ -86,6 +87,7 @@
     "swift_plugin_swift3_package": "openstack-swift-plugin-swift3",
     "swift_proxy_package": "openstack-swift-proxy",
     "targetcli_package": "targetcli",
+    "tftp_server_package": "tftp-server",
     "tgt_package": "scsi-target-utils",
     "xinetd_package": "xinetd",
     "zaqar_package": "openstack-zaqar"

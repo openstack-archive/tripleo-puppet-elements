@@ -26,6 +26,7 @@ heat_api_cloudwatch_package
 heat_api_package
 heat_engine_package
 horizon_package
+ipxe_bootimgs_package
 ironic_api_package
 ironic_conductor_package
 iscsi_package
@@ -82,6 +83,7 @@ swift_object_package
 swift_plugin_swift3_package
 swift_proxy_package
 targetcli_package
+tftp_server_package
 tgt_package
 xinetd_package
 zaqar_package
