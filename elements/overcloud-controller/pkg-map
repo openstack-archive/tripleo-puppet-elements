@@ -45,6 +45,7 @@
     "mistral_common_package": "openstack-mistral-common",
     "mistral_engine_package": "openstack-mistral-engine",
     "mistral_executor_package": "openstack-mistral-executor",
+    "mod_ssl_package": "mod_ssl",
     "mongodb_client_package": "mongodb",
     "mongodb_server_package": "mongodb-server",
     "neutron_metering_package": "openstack-neutron-metering-agent",
