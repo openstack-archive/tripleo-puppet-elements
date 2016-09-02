@@ -7,6 +7,7 @@ ceilometer_api_package
 ceilometer_central_package
 ceilometer_collector_package
 ceilometer_notification_package
+dracclient_package
 gnocchi_api_package
 gnocchi_indexer_package
 gnocchi_carbonara_package
@@ -64,6 +65,7 @@ openvswitch_ovn_controller_package
 oschecks_package
 pacemaker_package
 pcs_package
+proliantutils_package
 python_cradox_package
 python_openstackclient_package
 python_memcached_package
