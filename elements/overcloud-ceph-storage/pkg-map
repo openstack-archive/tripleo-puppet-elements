@@ -6,6 +6,7 @@
   },
   "default": {
     "ceph_osd_package": "ceph",
+    "ceph_selinux_package": "ceph-selinux",
     "fluentd_package": "fluentd",
     "ntp_package": "ntp",
     "rubygem_fluent_package": "rubygem-fluent-plugin-add",

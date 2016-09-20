@@ -14,6 +14,7 @@
     "ceilometer_collector_package": "openstack-ceilometer-collector",
     "ceilometer_notification_package": "openstack-ceilometer-notification",
     "ceph_mon_package": "ceph",
+    "ceph_selinux_package": "ceph-selinux",
     "cinder_package": "openstack-cinder",
     "fence_agents_package": "fence-agents-all",
     "fence_virt_package": "fence-virt",
