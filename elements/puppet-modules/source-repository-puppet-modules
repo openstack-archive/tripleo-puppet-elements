@@ -68,3 +68,4 @@ puppet-datacat git /opt/stack/puppet-modules/datacat https://github.com/richardc
 puppet-kmod git /opt/stack/puppet-modules/kmod https://github.com/camptocamp/puppet-kmod.git
 puppet-zaqar git /opt/stack/puppet-modules/zaqar https://git.openstack.org/openstack/puppet-zaqar.git
 puppet-ec2api git /opt/stack/puppet-modules/ec2api https://git.openstack.org/openstack/puppet-ec2api.git
+puppet-qdr git /opt/stack/puppet-modules/qdr https://git.openstack.org/openstack/puppet-qdr.git
