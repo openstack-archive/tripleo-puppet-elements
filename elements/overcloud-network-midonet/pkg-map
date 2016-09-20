@@ -2,18 +2,18 @@
   "default": {
     "augeas_package": "augeas",
     "augeasdevel_package": "augeas-devel",
+    "biosdevname": "biosdevname",
     "cassandra_package": "dsc20",
     "deltarpm_package": "deltarpm",
     "fluentd_package": "fluentd",
-    "midonet_api_package": "midonet-api",
-    "midonet_neutron_package": "python-networking-midonet",
+    "midonet_cli_package": "python-midonetclient",
+    "midonet_cluster_package": "midonet-cluster",
     "midonet_package": "midolman",
     "rubydevel_package": "ruby-devel",
     "rubygem_fluent_package": "rubygem-fluent-plugin-add",
     "rubygem_json_package": "rubygem-json",
     "oschecks_package": "osops-tools-monitoring-oschecks",
     "sensu_package": "sensu",
-    "tomcat_package": "tomcat",
     "zookeeper_package": "zookeeper"
   }
 }
