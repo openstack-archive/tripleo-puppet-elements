@@ -1,27 +1,27 @@
 [midonet]
 name=MidoNet
-baseurl=http://repo.midonet.org/midonet/v2015.06/RHEL/7/stable/
+baseurl=http://builds.midonet.org/midonet-${DIB_MIDONET_version}/${DIB_MIDONET_stage}/el7
 enabled=1
 gpgcheck=1
-gpgkey=http://repo.midonet.org/RPM-GPG-KEY-midokura
+gpgkey=https://builds.midonet.org/midorepo.key
 
 [datastax]
-name = DataStax Repo for Apache Cassandra
-baseurl = http://rpm.datastax.com/community
-enabled = 1
-gpgcheck = 1
-gpgkey = https://rpm.datastax.com/rpm/repo_key
+name=DataStax Repo for Apache Cassandra
+baseurl=http://rpm.datastax.com/community
+enabled=1
+gpgcheck=1
+gpgkey=https://rpm.datastax.com/rpm/repo_key
 
 [midonet-openstack-integration]
 name=MidoNet OpenStack Integration
-baseurl=http://builds.midonet.org/openstack-liberty/stable/el7/
+baseurl=http://builds.midonet.org/openstack-${DIB_MIDONET_openstack_version}/${DIB_MIDONET_stage}/el7
 enabled=1
 gpgcheck=1
-gpgkey=http://builds.midonet.org/midorepo.key
+gpgkey=https://builds.midonet.org/midorepo.key
 
 [midonet-misc]
 name=MidoNet 3rd Party Tools and Libraries
-baseurl=http://repo.midonet.org/misc/RHEL/7/misc/
+baseurl=http://builds.midonet.org/misc/${DIB_MIDONET_stage}/el7
 enabled=1
 gpgcheck=1
-gpgkey=http://repo.midonet.org/RPM-GPG-KEY-midokura
+gpgkey=https://builds.midonet.org/midorepo.key

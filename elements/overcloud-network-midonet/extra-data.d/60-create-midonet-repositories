@@ -11,7 +11,7 @@ else
 fi
 
 MIDONET_REPOS_DIR=$TMP_MOUNT_PATH/etc/yum.repos.d
-MIDONET_TARGET_FILE_NAME=MidoNet.repo
+MIDONET_TARGET_FILE_NAME=midonet.repo
 
 mkdir -p $MIDONET_REPOS_DIR
 
