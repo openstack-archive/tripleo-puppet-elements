@@ -1,4 +1,4 @@
-puppet-midonet git /opt/stack/puppet-midonet/midonet https://github.com/openstack/puppet-midonet.git eefd8c2f3db5c7172b0dab76a9952547cbfc7fb6
+puppet-midonet git /opt/stack/puppet-midonet/midonet https://github.com/openstack/puppet-midonet.git 27246e6f784f82a4e889882d1cd352160e77a04f
 puppetlabs-inifile git /opt/stack/puppet-midonet/inifile https://github.com/puppetlabs/puppetlabs-inifile.git 88bf9868b532ddf556bdb617f67eda9de0b8dc0f
 puppetlabs-apt git /opt/stack/puppet-midonet/apt https://github.com/puppetlabs/puppetlabs-apt.git 47c6f338eda98ed849531d92b63c5e33103f76e4
 puppetlabs-java git /opt/stack/puppet-midonet/java https://github.com/puppetlabs/puppetlabs-java 72a801c1e9f1c583a9a8f1f73dc9ff54860d47ea
@@ -12,4 +12,5 @@ puppet-elasticsearch git /opt/stack/puppet-midonet/elasticsearch https://github.
 puppet-logstash git /opt/stack/puppet-midonet/logstash https://github.com/elastic/puppet-logstash.git f56acd98c7bd126525d02a9ade8bc59d73e5f894
 puppet-lib-file_concat git /opt/stack/puppet-midonet/file_concat https://github.com/electrical/puppet-lib-file_concat.git 813132b5d776204e1da169a93e4bc6a1e253f75c
 puppet-datacat git /opt/stack/puppet-midonet/datacat https://github.com/richardc/puppet-datacat.git 9d2cd07b8777a559a0d5e475b0b5651d412f5ba0
-puppet-midonet_openstack git /opt/stack/puppet-midonet/midonet_openstack https://github.com/midonet/puppet-midonet_openstack.git 2f5b155c1cc14591d5022fb355b81789c538f110
+puppet-midonet_openstack git /opt/stack/puppet-midonet/midonet_openstack https://github.com/midonet/puppet-midonet_openstack.git 527615848c680d520ed31bee8825929ff06a41eb
+puppet-neutron git /opt/stack/puppet-midonet/neutron https://github.com/openstack/puppet-neutron.git 3af5e9a40400bc7dc47cd7c265b5f126637c4ba3
