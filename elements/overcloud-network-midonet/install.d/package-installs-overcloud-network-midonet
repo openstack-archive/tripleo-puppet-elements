@@ -6,6 +6,9 @@ deltarpm_package
 midonet_cli_package
 midonet_cluster_package
 midonet_package
+python_networking_midonet_package
+python_neutron_fwaas_package
+python_neutron_vpnaas_package
 rubydevel_package
 rubygem_json_package
 zookeeper_package
