@@ -14,4 +14,12 @@ To use git:
 
 Configuration
 -------------
-None. The modules are automatically linked into /etc/puppet/modules.
+The modules are automatically linked into /etc/puppet/modules.
+
+When installing from source, you can specify a specific branch or tag to use
+by exporting DIB_REPOREF_<module namespace>_<module name>=<git reference>. 
+
+For example:
+
+ export DIB\_REPOREF\_puppetlabs\_ntp=4.2.x
+
