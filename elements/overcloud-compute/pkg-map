@@ -4,7 +4,6 @@
     "ceph_package": "ceph",
     "dpdk_package": "dpdk",
     "driverctl_package": "driverctl",
-    "fluentd_package": "fluentd",
     "libvirt_package": "libvirt",
     "neutron_package": "openstack-neutron",
     "neutron_ml2_package": "openstack-neutron-ml2",
@@ -15,9 +14,6 @@
     "nova_compute_package": "openstack-nova-compute",
     "ntp_package": "ntp",
     "openvswitch_ovn_compute_package": "openvswitch-ovn-host",
-    "oschecks_package": "osops-tools-monitoring-oschecks",
-    "pacemaker_remote_package": "pacemaker-remote",
-    "rubygem_fluent_package": "rubygem-fluent-plugin-add",
-    "sensu_package": "sensu"
+    "pacemaker_remote_package": "pacemaker-remote"
   }
 }
