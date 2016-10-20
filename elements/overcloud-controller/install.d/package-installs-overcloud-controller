@@ -19,7 +19,6 @@ certmonger
 cinder_package
 fence_agents_package
 fence_virt_package
-fluentd_package
 glance_package
 haproxy_package
 heat_api_cfn_package
@@ -62,7 +61,6 @@ nova_novncproxy_package
 nova_scheduler_package
 ntp_package
 openvswitch_ovn_controller_package
-oschecks_package
 pacemaker_package
 pcs_package
 proliantutils_package
@@ -72,12 +70,10 @@ python_memcached_package
 rabbitmq_server_package
 redis_client_package
 redis_server_package
-rubygem_fluent_package
 sahara_api_package
 sahara_engine_package
 sahara_package
 sahara_ui_package
-sensu_package
 trove_api_package
 trove_conductor_package
 trove_taskmanager_package

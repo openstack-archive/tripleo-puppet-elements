@@ -1,11 +1,7 @@
 {
   "default": {
     "cinder_package": "openstack-cinder",
-    "fluentd_package": "fluentd",
     "ntp_package": "ntp",
-    "oschecks_package": "osops-tools-monitoring-oschecks",
-    "rubygem_fluent_package": "rubygem-fluent-plugin-add",
-    "sensu_package": "sensu",
     "targetcli_package": "targetcli",
     "tgt_package": "scsi-target-utils"
   }

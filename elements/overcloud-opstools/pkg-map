@@ -1,0 +1,9 @@
+{
+  "default": {
+    "fluentd_package": "fluentd",
+    "fluent_plugin_add_package": "rubygem-fluent-plugin-add",
+    "fluent_plugin_secure_forward_package": "rubygem-fluent-plugin-secure-forward",
+    "oschecks_package": "osops-tools-monitoring-oschecks",
+    "sensu_package": "sensu"
+  }
+}

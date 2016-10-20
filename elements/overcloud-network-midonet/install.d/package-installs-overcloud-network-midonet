@@ -3,13 +3,9 @@ augeasdevel_package
 biosdevname
 cassandra_package
 deltarpm_package
-fluentd_package
 midonet_cli_package
 midonet_cluster_package
 midonet_package
 rubydevel_package
-rubygem_fluent_package
 rubygem_json_package
-oschecks_package
-sensu_package
 zookeeper_package
