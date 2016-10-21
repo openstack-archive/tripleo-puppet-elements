@@ -4,10 +4,6 @@
     "contrail_config_package": "contrail-openstack-config",
     "contrail_control_package": "contrail-openstack-control",
     "contrail_database_package": "contrail-openstack-database",
-    "contrail_webui_package": "contrail-openstack-webui",
-    "fluentd_package": "fluentd",
-    "oschecks_package": "osops-tools-monitoring-oschecks",
-    "rubygem_fluent_package": "rubygem-fluent-plugin-add",
-    "sensu_package": "sensu"
+    "contrail_webui_package": "contrail-openstack-webui"
   }
 }

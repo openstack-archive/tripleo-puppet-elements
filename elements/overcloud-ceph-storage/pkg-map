@@ -1,10 +1,6 @@
 {
   "default": {
     "ceph_osd_package": "ceph-osd",
-    "fluentd_package": "fluentd",
-    "ntp_package": "ntp",
-    "oschecks_package": "osops-tools-monitoring-oschecks",
-    "rubygem_fluent_package": "rubygem-fluent-plugin-add",
-    "sensu_package": "sensu"
+    "ntp_package": "ntp"
   }
 }

@@ -2,7 +2,6 @@ ceilometer_compute_package
 ceph_package
 dpdk_package
 driverctl_package
-fluentd_package
 libvirt_package
 neutron_package
 neutron_ml2_package
@@ -12,7 +11,4 @@ nfs_package
 nova_compute_package
 ntp_package
 openvswitch_ovn_compute_package
-oschecks_package
 pacemaker_remote_package
-rubygem_fluent_package
-sensu_package
