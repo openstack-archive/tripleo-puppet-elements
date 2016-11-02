@@ -1,0 +1,20 @@
+#!/bin/bash
+
+set -eux
+
+# There is a new hiera hook in town. If it is writing out
+# /etc/puppet/hiera.yaml then we need to disable the o-a-c
+# script that writes out the old one here. We flag on the fact
+# that the new version only writes out JSON (no YAML)
+if [ -f /etc/puppet/hiera.yaml ] &&
+   ! grep yaml /etc/puppet/hiera.yaml &> /dev/null; then
+  if [ -f /usr/libexec/os-apply-config/templates/etc/puppet/hiera.yaml ]; then
+    rm /usr/libexec/os-apply-config/templates/etc/puppet/hiera.yaml
+  fi
+  if [ -f /usr/libexec/os-refresh-config/configure.d/40-hiera-datafiles ]; then
+    rm /usr/libexec/os-refresh-config/configure.d/40-hiera-datafiles
+  fi
+  if ls /etc/puppet/hieradata/*.yaml &> /dev/null; then
+    rm /etc/puppet/hieradata/*.yaml
+  fi
+fi
