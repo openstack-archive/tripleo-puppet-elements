@@ -2,3 +2,4 @@ os-apply-config
 os-refresh-config
 package-installs
 puppet
+truncate-nova-config
