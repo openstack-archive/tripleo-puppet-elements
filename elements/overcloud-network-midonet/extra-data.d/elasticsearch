@@ -1,0 +1,6 @@
+[elasticsearch]
+name=elasticsearch repo
+baseurl=https://packages.elastic.co/elasticsearch/${DIB_MIDONET_elasticsearch_version}/centos
+enabled=1
+gpgcheck=1
+gpgkey=https://packages.elastic.co/GPG-KEY-elasticsearch

@@ -1,4 +1,4 @@
-puppet-midonet git /opt/stack/puppet-midonet/midonet https://github.com/openstack/puppet-midonet.git 27246e6f784f82a4e889882d1cd352160e77a04f
+puppet-midonet git /opt/stack/puppet-midonet/midonet https://github.com/openstack/puppet-midonet.git afda02210a10852fd5e9c42dfacf5cff549bfe5e
 puppetlabs-inifile git /opt/stack/puppet-midonet/inifile https://github.com/puppetlabs/puppetlabs-inifile.git 88bf9868b532ddf556bdb617f67eda9de0b8dc0f
 puppetlabs-apt git /opt/stack/puppet-midonet/apt https://github.com/puppetlabs/puppetlabs-apt.git 47c6f338eda98ed849531d92b63c5e33103f76e4
 puppetlabs-java git /opt/stack/puppet-midonet/java https://github.com/puppetlabs/puppetlabs-java 72a801c1e9f1c583a9a8f1f73dc9ff54860d47ea
