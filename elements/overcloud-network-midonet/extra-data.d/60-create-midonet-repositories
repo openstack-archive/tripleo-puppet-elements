@@ -7,7 +7,7 @@ if [ "${DIB_MIDONET_release}" = "OSS" ]; then
 elif [ "${DIB_MIDONET_release}" = "MEM" ]; then
   MIDONET_REPOS_FILE=midonet-mem
 else
-  echo "DIB_MIDONET_release is not set to 'OSS' os 'MEM'" >&2
+  echo "DIB_MIDONET_release is not set to 'OSS' or 'MEM'" >&2
   exit 1;
 fi
 
@@ -15,6 +15,12 @@ MIDONET_REPOS_DIR=$TMP_MOUNT_PATH/etc/yum.repos.d
 MIDONET_TARGET_FILE_NAME=midonet.repo
 DATASTAX_REPOS_FILE=datastax
 DATASTAX_TARGET_FILE_NAME=datastax.repo
+ELASTICSEARCH_REPOS_FILE=elasticsearch
+ELASTICSEARCH_TARGET_FILE_NAME=elasticsearch.repo
+LOGSTASH_REPOS_FILE=logstash
+LOGSTASH_TARGET_FILE_NAME=logstash.repo
+LLPD_REPOS_FILE=vbernat-llpd
+LLPD_TARGET_FILE_NAME=vbernat-llpd.repo
 
 mkdir -p $MIDONET_REPOS_DIR
 
@@ -23,6 +29,14 @@ mkdir -p $MIDONET_REPOS_DIR
 function subst() { eval echo -E "$2"; }
 mapfile -c 1 -C subst < $TMP_HOOKS_PATH/extra-data.d/$MIDONET_REPOS_FILE > /tmp/repo-midonet
 mapfile -c 1 -C subst < $TMP_HOOKS_PATH/extra-data.d/$DATASTAX_REPOS_FILE > /tmp/repo-cassandra
+mapfile -c 1 -C subst < $TMP_HOOKS_PATH/extra-data.d/$ELASTICSEARCH_REPOS_FILE > /tmp/repo-elasticsearch
+mapfile -c 1 -C subst < $TMP_HOOKS_PATH/extra-data.d/$LOGSTASH_REPOS_FILE > /tmp/repo-logstash
+mapfile -c 1 -C subst < $TMP_HOOKS_PATH/extra-data.d/$LLPD_REPOS_FILE > /tmp/repo-llpd
 
 sudo mv /tmp/repo-midonet $MIDONET_REPOS_DIR/$MIDONET_TARGET_FILE_NAME
 sudo mv /tmp/repo-cassandra $MIDONET_REPOS_DIR/$DATASTAX_TARGET_FILE_NAME
+sudo mv /tmp/repo-elasticsearch $MIDONET_REPOS_DIR/$ELASTICSEARCH_TARGET_FILE_NAME
+sudo mv /tmp/repo-logstash $MIDONET_REPOS_DIR/$LOGSTASH_TARGET_FILE_NAME
+sudo mv /tmp/repo-llpd $MIDONET_REPOS_DIR/$LLPD_TARGET_FILE_NAME
+
+exit 0
