@@ -1,4 +1,4 @@
-Installs the the Puppet package.
+Installs the Puppet package.
 
 Configuration
 -------------
