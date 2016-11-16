@@ -1,0 +1,6 @@
+[vbernat-lldpd]
+name=vbernat-lldpd
+baseurl=http://download.opensuse.org/repositories/home:/vbernat/RHEL_7/
+enabled=1
+gpgcheck=1
+gpgkey=http://download.opensuse.org/repositories/home:/vbernat/RHEL_7/repodata/repomd.xml.key

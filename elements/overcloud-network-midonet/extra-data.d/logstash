@@ -1,0 +1,6 @@
+[logstash]
+name=Logstash Centos Repo
+baseurl=http://packages.elasticsearch.org/logstash/${DIB_MIDONET_logstash_version}/centos
+enabled=1
+gpgcheck=1
+gpgkey=http://packages.elasticsearch.org/GPG-KEY-elasticsearch
