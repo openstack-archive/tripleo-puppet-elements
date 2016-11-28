@@ -10,6 +10,7 @@
     "ceilometer_collector_package": "openstack-ceilometer-collector",
     "ceilometer_notification_package": "openstack-ceilometer-notification",
     "ceph_mon_package": "ceph-mon",
+    "ceph_mds_package": "ceph-mds",
     "ceph_rgw_package": "ceph-radosgw",
     "certmonger": "certmonger",
     "cinder_package": "openstack-cinder",

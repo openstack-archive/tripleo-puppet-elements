@@ -15,6 +15,7 @@ gnocchi_carbonara_package
 gnocchi_statsd_package
 gnocchi_metricd_package
 ceph_mon_package
+ceph_mds_package
 ceph_rgw_package
 certmonger
 cinder_package
