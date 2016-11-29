@@ -56,6 +56,7 @@
     "neutron_ml2_package": "openstack-neutron-ml2",
     "neutron_openvswitch_package": "openstack-neutron-openvswitch",
     "neutron_package": "openstack-neutron",
+    "networking_bgpvpn_package": "python-networking-bgpvpn",
     "networking_odl_package": "python-networking-odl",
     "networking_ovn_package": "python-networking-ovn",
     "nfs_package": "nfs-utils",
