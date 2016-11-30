@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -eux
+set -o pipefail
+
+mkdir -p /usr/libexec/os-refresh-config/configure.d/40-truncate-nova-config
+install -m 0755 -o root -g root $(dirname $0)/../40-truncate-nova-config /usr/libexec/os-refresh-config/configure.d/40-truncate-nova-config
