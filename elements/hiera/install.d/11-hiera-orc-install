@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -eux
+set -o pipefail
+
+mkdir -p /usr/libexec/os-refresh-config/configure.d/
+install -m 0755 -o root -g root $(dirname $0)/../10-hiera-disable /usr/libexec/os-refresh-config/configure.d/10-hiera-disable
+install -m 0755 -o root -g root $(dirname $0)/../40-hiera-datafiles /usr/libexec/os-refresh-config/configure.d/40-hiera-datafiles
