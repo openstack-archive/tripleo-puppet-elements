@@ -41,6 +41,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-oslo \
     puppet-nssdb \
     puppet-ovn \
+    puppet-panko \
     puppet-puppet \
     puppet-qdr \
     puppetlabs-rabbitmq \

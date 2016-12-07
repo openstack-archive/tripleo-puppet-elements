@@ -68,6 +68,7 @@ openvswitch_ovn_controller_package
 pacemaker_package
 pcs_package
 proliantutils_package
+panko_api_package
 python_cradox_package
 python_openstackclient_package
 python_memcached_package

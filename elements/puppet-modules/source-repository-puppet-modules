@@ -30,6 +30,7 @@ puppet-nova git /opt/stack/puppet-modules/nova https://git.openstack.org/opensta
 puppet-oslo git /opt/stack/puppet-modules/oslo https://git.openstack.org/openstack/puppet-oslo.git
 puppet-nssdb git /opt/stack/puppet-modules/nssdb https://github.com/rcritten/puppet-nssdb.git
 puppet-ovn git /opt/stack/puppet-modules/ovn https://git.openstack.org/openstack/puppet-ovn.git
+puppet-panko git /opt/stack/puppet-modules/panko https://git.openstack.org/openstack/puppet-panko.git
 puppet-puppet git /opt/stack/puppet-modules/puppet https://github.com/purpleidea/puppet-puppet.git
 puppetlabs-rabbitmq git /opt/stack/puppet-modules/rabbitmq https://github.com/puppetlabs/puppetlabs-rabbitmq.git
 puppet-redis git /opt/stack/puppet-modules/redis https://github.com/arioch/puppet-redis.git

@@ -69,6 +69,7 @@
     "nova_scheduler_package": "openstack-nova-scheduler",
     "ntp_package": "ntp",
     "openvswitch_ovn_controller_package": "openvswitch-ovn-central",
+    "panko_api_package": "openstack-panko-api",
     "python_cradox_package": "python-cradox",
     "python_openstackclient_package": "python-openstackclient",
     "python_memcached_package": "python-memcached",
