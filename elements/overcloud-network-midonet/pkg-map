@@ -4,6 +4,7 @@
     "augeasdevel_package": "augeas-devel",
     "biosdevname": "biosdevname",
     "cassandra_package": "cassandra22",
+    "curator_package": "python-elasticsearch-curator"
     "deltarpm_package": "deltarpm",
     "midonet_cli_package": "python-midonetclient",
     "midonet_cluster_package": "midonet-cluster",
