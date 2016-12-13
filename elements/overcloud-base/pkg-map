@@ -1,6 +1,7 @@
 {
   "default": {
     "crudini": "crudini",
+    "docker": "docker",
     "python_ipaddr": "python-ipaddr",
     "openstack_selinux": "openstack-selinux"
   }
