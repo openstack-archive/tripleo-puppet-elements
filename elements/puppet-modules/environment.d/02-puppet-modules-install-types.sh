@@ -37,6 +37,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppetlabs-mongodb \
     puppetlabs-mysql \
     puppet-neutron \
+    puppet-octavia \
     puppet-nova \
     puppet-oslo \
     puppet-nssdb \
