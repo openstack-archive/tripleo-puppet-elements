@@ -28,6 +28,7 @@ heat_api_cloudwatch_package
 heat_api_package
 heat_engine_package
 horizon_package
+ipa_admintools_package
 ipa_client_package
 ipxe_bootimgs_package
 ironic_api_package

@@ -30,6 +30,7 @@
     "heat_api_package": "openstack-heat-api",
     "heat_engine_package": "openstack-heat-engine",
     "horizon_package": "openstack-dashboard",
+    "ipa_admintools_package": "ipa-admintools",
     "ipa_client_package": "ipa-client",
     "ipxe_bootimgs_package": "ipxe-bootimgs",
     "ironic_api_package": "openstack-ironic-api",
