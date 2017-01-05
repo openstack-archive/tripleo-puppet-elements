@@ -2,6 +2,7 @@ augeas_package
 augeasdevel_package
 biosdevname
 cassandra_package
+curator_package
 deltarpm_package
 midonet_cli_package
 midonet_cluster_package

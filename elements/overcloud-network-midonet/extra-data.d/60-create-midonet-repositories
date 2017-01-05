@@ -21,6 +21,8 @@ LOGSTASH_REPOS_FILE=logstash
 LOGSTASH_TARGET_FILE_NAME=logstash.repo
 LLPD_REPOS_FILE=vbernat-llpd
 LLPD_TARGET_FILE_NAME=vbernat-llpd.repo
+CURATOR_REPOS_FILE=curator
+CURATOR_TARGET_FILE_NAME=curator.repo
 
 mkdir -p $MIDONET_REPOS_DIR
 
@@ -32,11 +34,13 @@ mapfile -c 1 -C subst < $TMP_HOOKS_PATH/extra-data.d/$DATASTAX_REPOS_FILE > /tmp
 mapfile -c 1 -C subst < $TMP_HOOKS_PATH/extra-data.d/$ELASTICSEARCH_REPOS_FILE > /tmp/repo-elasticsearch
 mapfile -c 1 -C subst < $TMP_HOOKS_PATH/extra-data.d/$LOGSTASH_REPOS_FILE > /tmp/repo-logstash
 mapfile -c 1 -C subst < $TMP_HOOKS_PATH/extra-data.d/$LLPD_REPOS_FILE > /tmp/repo-llpd
+mapfile -c 1 -C subst < $TMP_HOOKS_PATH/extra-data.d/$CURATOR_REPOS_FILE > /tmp/repo-curator
 
 sudo mv /tmp/repo-midonet $MIDONET_REPOS_DIR/$MIDONET_TARGET_FILE_NAME
 sudo mv /tmp/repo-cassandra $MIDONET_REPOS_DIR/$DATASTAX_TARGET_FILE_NAME
 sudo mv /tmp/repo-elasticsearch $MIDONET_REPOS_DIR/$ELASTICSEARCH_TARGET_FILE_NAME
 sudo mv /tmp/repo-logstash $MIDONET_REPOS_DIR/$LOGSTASH_TARGET_FILE_NAME
 sudo mv /tmp/repo-llpd $MIDONET_REPOS_DIR/$LLPD_TARGET_FILE_NAME
+sudo mv /tmp/repo-curator $MIDONET_REPOS_DIR/$CURATOR_TARGET_FILE_NAME
 
 exit 0
