@@ -69,6 +69,7 @@
     "nova_conductor_package": "openstack-nova-conductor",
     "nova_console_package": "openstack-nova-console",
     "nova_novncproxy_package": "openstack-nova-novncproxy",
+    "nova_placement_package": "openstack-nova-placement-api",
     "nova_scheduler_package": "openstack-nova-scheduler",
     "ntp_package": "ntp",
     "openvswitch_ovn_controller_package": "openvswitch-ovn-central",

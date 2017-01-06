@@ -65,6 +65,7 @@ nova_cert_package
 nova_conductor_package
 nova_console_package
 nova_novncproxy_package
+nova_placement_package
 nova_scheduler_package
 ntp_package
 openvswitch_ovn_controller_package
