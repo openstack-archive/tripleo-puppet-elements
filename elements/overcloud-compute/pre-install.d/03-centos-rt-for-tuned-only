@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ "${DIB_DEBUG_TRACE:-0}" -gt 0 ]; then
+    set -x
+fi
+set -eu
+set -o pipefail
+
+if [[ "$DISTRO_NAME" == *"centos"* ]]; then
+    # tuned-profiles-cpu-partitioning is installed in rhel via fast-datapath.
+    # for centos, "rt" repo is added temprovarily (later change to centos
+    # nfv repo )
+    cat << EOF > /etc/yum.repos.d/centos7-rt-tuned-only.repo
+[centos7-rt-for-tuned-only]
+name=centos rt
+baseurl=http://mirror.centos.org/centos/7/rt/x86_64/
+enabled=1
+gpgcheck=0
+includepkgs=tuned-profiles-cpu-partitioning
+EOF
+fi

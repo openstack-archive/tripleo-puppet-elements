@@ -14,6 +14,7 @@
     "nova_compute_package": "openstack-nova-compute",
     "ntp_package": "ntp",
     "openvswitch_ovn_compute_package": "openvswitch-ovn-host",
-    "pacemaker_remote_package": "pacemaker-remote"
+    "pacemaker_remote_package": "pacemaker-remote",
+    "tuned_profiles_cpu_partitioning_package": "tuned-profiles-cpu-partitioning"
   }
 }
