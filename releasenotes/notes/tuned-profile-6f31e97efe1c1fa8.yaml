@@ -1,0 +1,4 @@
+---
+features:
+  - Added tuned-profile-cpu-partitioning package from centos rt repo.
+    This package is essential for tuning hosts for NFV deployments.
