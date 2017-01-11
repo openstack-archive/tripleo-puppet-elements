@@ -57,6 +57,7 @@ puppetlabs-ntp git /opt/stack/puppet-modules/ntp https://github.com/puppetlabs/p
 puppet-snmp git /opt/stack/puppet-modules/snmp https://github.com/razorsedge/puppet-snmp.git
 puppet-tripleo git /opt/stack/puppet-modules/tripleo https://git.openstack.org/openstack/puppet-tripleo.git
 puppet-ironic git /opt/stack/puppet-modules/ironic https://git.openstack.org/openstack/puppet-ironic.git
+puppet-ipaclient git /opt/stack/puppet-modules/ipaclient https://github.com/joshuabaird/puppet-ipaclient
 puppetlabs-corosync git /opt/stack/puppet-modules/corosync https://github.com/puppetlabs/puppetlabs-corosync.git
 puppet-pacemaker git /opt/stack/puppet-modules/pacemaker https://git.openstack.org/openstack/puppet-pacemaker.git
 puppet_aviator git /opt/stack/puppet-modules/aviator https://github.com/aimonb/puppet_aviator.git

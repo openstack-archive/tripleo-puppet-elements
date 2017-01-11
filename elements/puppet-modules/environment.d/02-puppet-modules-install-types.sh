@@ -67,6 +67,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-snmp \
     puppet-tripleo \
     puppet-ironic \
+    puppet-ipaclient \
     puppet-openstack_extras \
     puppet_aviator \
     puppetlabs-corosync \
