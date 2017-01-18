@@ -68,6 +68,11 @@ nova_novncproxy_package
 nova_placement_package
 nova_scheduler_package
 ntp_package
+octavia_common_package
+octavia_api_package
+octavia_worker_package
+octavia_health_manager_package
+octavia_housekeeping_package
 openvswitch_ovn_controller_package
 pacemaker_package
 pcs_package

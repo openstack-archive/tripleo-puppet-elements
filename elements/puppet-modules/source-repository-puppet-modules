@@ -27,6 +27,7 @@ puppetlabs-mongodb git /opt/stack/puppet-modules/mongodb https://github.com/pupp
 puppetlabs-mysql git /opt/stack/puppet-modules/mysql https://github.com/puppetlabs/puppetlabs-mysql.git
 puppet-neutron git /opt/stack/puppet-modules/neutron https://git.openstack.org/openstack/puppet-neutron.git
 puppet-nova git /opt/stack/puppet-modules/nova https://git.openstack.org/openstack/puppet-nova.git
+puppet-octavia git /opt/stack/puppet-modules/octavia https://git.openstack.org/openstack/puppet-octavia.git
 puppet-oslo git /opt/stack/puppet-modules/oslo https://git.openstack.org/openstack/puppet-oslo.git
 puppet-nssdb git /opt/stack/puppet-modules/nssdb https://github.com/rcritten/puppet-nssdb.git
 puppet-ovn git /opt/stack/puppet-modules/ovn https://git.openstack.org/openstack/puppet-ovn.git
