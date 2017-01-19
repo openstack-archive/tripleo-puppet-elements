@@ -23,7 +23,6 @@
     "glance_package": "openstack-glance",
     "gnocchi_api_package": "openstack-gnocchi-api",
     "gnocchi_indexer_package": "openstack-gnocchi-indexer-sqlalchemy",
-    "gnocchi_carbonara_package": "openstack-gnocchi-carbonara",
     "gnocchi_statsd_package": "openstack-gnocchi-statsd",
     "gnocchi_metricd_package": "openstack-gnocchi-metricd",
     "haproxy_package": "haproxy",

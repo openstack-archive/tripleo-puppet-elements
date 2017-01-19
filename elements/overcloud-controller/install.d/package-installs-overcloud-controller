@@ -11,7 +11,6 @@ cyrus_sasl_plain_package
 dracclient_package
 gnocchi_api_package
 gnocchi_indexer_package
-gnocchi_carbonara_package
 gnocchi_statsd_package
 gnocchi_metricd_package
 ceph_mon_package
