@@ -7,7 +7,7 @@ puppet-gnocchi git /opt/stack/puppet-modules/gnocchi https://git.openstack.org/o
 puppet-certmonger git /opt/stack/puppet-modules/certmonger https://github.com/rcritten/puppet-certmonger.git
 puppet-cinder git /opt/stack/puppet-modules/cinder https://git.openstack.org/openstack/puppet-cinder.git
 puppet-common git /opt/stack/puppet-modules/common https://github.com/purpleidea/puppet-common.git
-puppet-contrail git /opt/stack/puppet-modules/contrail https://github.com/redhat-cip/puppet-contrail.git
+puppet-contrail git /opt/stack/puppet-modules/contrail https://github.com/Juniper/puppet-contrail.git
 puppetlabs-concat git /opt/stack/puppet-modules/concat https://github.com/puppetlabs/puppetlabs-concat.git
 puppetlabs-firewall git /opt/stack/puppet-modules/firewall https://github.com/puppetlabs/puppetlabs-firewall.git
 puppet-glance git /opt/stack/puppet-modules/glance https://git.openstack.org/openstack/puppet-glance.git
