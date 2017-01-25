@@ -3,6 +3,7 @@
     "crudini": "crudini",
     "docker": "docker",
     "python_ipaddr": "python-ipaddr",
-    "openstack_selinux": "openstack-selinux"
+    "openstack_selinux": "openstack-selinux",
+    "net_snmp": "net-snmp"
   }
 }
