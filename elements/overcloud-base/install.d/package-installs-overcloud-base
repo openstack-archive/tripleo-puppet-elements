@@ -1,3 +1,4 @@
 crudini
 python_ipaddr
 openstack_selinux
+net_snmp
