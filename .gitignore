@@ -8,3 +8,6 @@ dist
 build
 AUTHORS
 ChangeLog
+
+# Files created by releasenotes build
+releasenotes/build
