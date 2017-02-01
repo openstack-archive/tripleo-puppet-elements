@@ -99,6 +99,7 @@
     "swift_plugin_swift3_package": "openstack-swift-plugin-swift3",
     "swift_proxy_package": "openstack-swift-proxy",
     "targetcli_package": "targetcli",
+    "tacker_package": "openstack-tacker",
     "tftp_server_package": "tftp-server",
     "tgt_package": "scsi-target-utils",
     "xinetd_package": "xinetd",
