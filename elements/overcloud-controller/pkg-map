@@ -15,6 +15,7 @@
     "ceph_rgw_package": "ceph-radosgw",
     "certmonger": "certmonger",
     "cinder_package": "openstack-cinder",
+    "congress_package": "openstack-congress",
     "dracclient_package": "python-dracclient",
     "ec2_api_package": "openstack-ec2-api",
     "fence_agents_package": "fence-agents-all",

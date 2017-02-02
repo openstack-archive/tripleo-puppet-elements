@@ -7,6 +7,7 @@ ceilometer_api_package
 ceilometer_central_package
 ceilometer_collector_package
 ceilometer_notification_package
+congress_package
 dracclient_package
 gnocchi_api_package
 gnocchi_indexer_package

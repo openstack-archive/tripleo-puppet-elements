@@ -14,6 +14,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-certmonger \
     puppet-cinder \
     puppet-common \
+    puppet-congress \
     puppet-contrail \
     puppetlabs-concat \
     puppet-datacat \
