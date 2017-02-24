@@ -8,6 +8,7 @@ ceilometer_central_package
 ceilometer_collector_package
 ceilometer_notification_package
 congress_package
+cyrus_sasl_plain_package
 dracclient_package
 gnocchi_api_package
 gnocchi_indexer_package
@@ -80,6 +81,8 @@ panko_api_package
 python_cradox_package
 python_openstackclient_package
 python_memcached_package
+qpid_dispatch_router_package
+qpid_dispatch_tools_package
 rabbitmq_server_package
 redis_client_package
 redis_server_package
