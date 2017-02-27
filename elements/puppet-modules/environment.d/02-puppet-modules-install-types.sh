@@ -51,6 +51,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-staging \
     puppetlabs-stdlib \
     puppet-swift \
+    puppet-systemd \
     puppetlabs-sysctl \
     puppet-tempest \
     puppet-timezone \
