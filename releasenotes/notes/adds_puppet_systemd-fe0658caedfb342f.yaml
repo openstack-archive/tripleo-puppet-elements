@@ -1,0 +1,5 @@
+---
+features:
+  - Adds puppet-systemd which can be used to create or
+    modify systemd unit service files and set system
+    limits.
