@@ -1,1 +1,0 @@
-Truncate config files.

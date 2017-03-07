@@ -1,0 +1,8 @@
+---
+other:
+  - |
+    Removed ``truncate-nova-config`` as it isn't being used anymore. It was
+    originally added as a workaround for `bug 1568820`_ which has since been
+    fixed in nova and oslo-config.
+
+    .. _bug 1568820: https://bugs.launchpad.net/oslo.config/+bug/1568820
