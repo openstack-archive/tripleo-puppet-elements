@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -eu
+set -o pipefail
+
+# In order to make sure not all nodes have the same machine id, we need to
+# remove it from the image and it should be generated on boot. LP#1672461
+rm -f /etc/machine-id
