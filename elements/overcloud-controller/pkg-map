@@ -97,6 +97,7 @@
     "sahara_api_package": "openstack-sahara-api",
     "sahara_engine_package": "openstack-sahara-engine",
     "sahara_ui_package": "openstack-sahara-ui",
+    "socat_package": "socat",
     "trove_api_package": "openstack-trove-api",
     "trove_conductor_package": "openstack-trove-conductor",
     "trove_taskmanager_package": "openstack-trove-taskmanager",

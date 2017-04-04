@@ -93,6 +93,7 @@ sahara_api_package
 sahara_engine_package
 sahara_package
 sahara_ui_package
+socat_package
 tacker_package
 trove_api_package
 trove_conductor_package
