@@ -1,0 +1,4 @@
+---
+features:
+  - Add BGPVPN support in overcloud-controller element
+  - Add Bagpipe driver in overcloud-controller and overcloud-compute elements

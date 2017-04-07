@@ -62,6 +62,7 @@ neutron_l2gw_package
 neutron_ml2_package
 neutron_openvswitch_package
 neutron_package
+networking_bagpipe_package
 networking_bgpvpn_package
 networking_l2gw_package
 networking_odl_package
