@@ -22,6 +22,7 @@ ceph_rgw_package
 certmonger
 cinder_package
 ec2_api_package
+etcd_package
 fence_agents_package
 fence_virt_package
 glance_package

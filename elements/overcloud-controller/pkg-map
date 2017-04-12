@@ -20,6 +20,7 @@
     "cyrus_sasl_plain_package": "cyrus-sasl-plain",
     "dracclient_package": "python-dracclient",
     "ec2_api_package": "openstack-ec2-api",
+    "etcd_package": "etcd",
     "fence_agents_package": "fence-agents-all",
     "fence_virt_package": "fence-virt",
     "glance_package": "openstack-glance",
