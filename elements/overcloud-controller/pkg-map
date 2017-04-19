@@ -59,6 +59,7 @@
     "mongodb_server_package": "mongodb-server",
     "neutron_metering_package": "openstack-neutron-metering-agent",
     "neutron_lbaas_package": "openstack-neutron-lbaas",
+    "neutron_linuxbridge_package": "openstack-neutron-linuxbridge",
     "neutron_l2gw_package": "openstack-neutron-l2gw-agent",
     "neutron_ml2_package": "openstack-neutron-ml2",
     "neutron_openvswitch_package": "openstack-neutron-openvswitch",
