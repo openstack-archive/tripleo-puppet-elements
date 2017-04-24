@@ -76,3 +76,4 @@ puppet-zaqar git /opt/stack/puppet-modules/zaqar https://git.openstack.org/opens
 puppet-ec2api git /opt/stack/puppet-modules/ec2api https://git.openstack.org/openstack/puppet-ec2api.git
 puppet-qdr git /opt/stack/puppet-modules/qdr https://git.openstack.org/openstack/puppet-qdr.git
 puppet-systemd git /opt/stack/puppet-modules/systemd https://github.com/camptocamp/puppet-systemd.git
+puppet-etcd git /opt/stack/puppet-modules/etcd https://github.com/cristifalcas/puppet-etcd.git

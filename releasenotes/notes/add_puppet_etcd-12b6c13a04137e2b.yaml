@@ -1,0 +1,4 @@
+---
+features:
+  - |
+    Add puppet-etcd which can be used to manage etcd clusters.
