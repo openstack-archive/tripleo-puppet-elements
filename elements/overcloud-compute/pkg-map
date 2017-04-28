@@ -12,6 +12,7 @@
     "neutron_sriov_agent_package": "openstack-neutron-sriov-nic-agent",
     "nfs_package": "nfs-utils",
     "nova_compute_package": "openstack-nova-compute",
+    "nova_migration_package": "openstack-nova-migration",
     "ntp_package": "ntp",
     "openvswitch_ovn_compute_package": "openvswitch-ovn-host",
     "pacemaker_remote_package": "pacemaker-remote"
