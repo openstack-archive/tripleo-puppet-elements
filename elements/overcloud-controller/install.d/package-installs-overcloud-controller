@@ -65,7 +65,6 @@ networking_odl_package
 networking_ovn_package
 nfs_package
 nova_api_package
-nova_cert_package
 nova_conductor_package
 nova_console_package
 nova_novncproxy_package

@@ -69,7 +69,6 @@
     "networking_ovn_package": "python-networking-ovn",
     "nfs_package": "nfs-utils",
     "nova_api_package": "openstack-nova-api",
-    "nova_cert_package": "openstack-nova-cert",
     "nova_conductor_package": "openstack-nova-conductor",
     "nova_console_package": "openstack-nova-console",
     "nova_novncproxy_package": "openstack-nova-novncproxy",
