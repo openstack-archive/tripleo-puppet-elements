@@ -7,6 +7,7 @@
     "libvirt_package": "libvirt",
     "neutron_package": "openstack-neutron",
     "neutron_ml2_package": "openstack-neutron-ml2",
+    "neutron_linuxbridge_package": "openstack-neutron-linuxbridge",
     "neutron_openvswitch_package": "openstack-neutron-openvswitch",
     "neutron_package": "openstack-neutron",
     "neutron_sriov_agent_package": "openstack-neutron-sriov-nic-agent",
