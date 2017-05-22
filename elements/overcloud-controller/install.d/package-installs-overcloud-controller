@@ -65,6 +65,7 @@ networking_bgpvpn_package
 networking_l2gw_package
 networking_odl_package
 networking_ovn_package
+networking_sfc_package
 nfs_package
 nova_api_package
 nova_conductor_package

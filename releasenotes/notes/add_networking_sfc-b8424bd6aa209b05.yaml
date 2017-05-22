@@ -1,0 +1,5 @@
+---
+features:
+  - |
+    Add networking-sfc package to the overcloud-controller and
+    overcloud-compute elements.
