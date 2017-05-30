@@ -39,6 +39,7 @@
     "ipxe_bootimgs_package": "ipxe-bootimgs",
     "ironic_api_package": "openstack-ironic-api",
     "ironic_conductor_package": "openstack-ironic-conductor",
+    "ironic_inspector_package": "openstack-ironic-inspector",
     "iscsi_package": "iscsi-initiator-utils",
     "keystone_package": "openstack-keystone",
     "manila_package": "openstack-manila",

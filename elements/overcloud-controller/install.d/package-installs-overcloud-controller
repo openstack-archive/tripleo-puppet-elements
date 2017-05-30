@@ -37,6 +37,7 @@ ipa_client_package
 ipxe_bootimgs_package
 ironic_api_package
 ironic_conductor_package
+ironic_inspector_package
 iscsi_package
 keystone_package
 manila_package
