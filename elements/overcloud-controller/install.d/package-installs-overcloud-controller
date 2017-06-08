@@ -46,9 +46,10 @@ manila_ui_package
 mariadb_package
 mariadb_server_package
 mistral_api_package
+mistral_common_package
 mistral_engine_package
+mistral_event_engine_package
 mistral_executor_package
-mistral_package
 mod_auth_mellon_package
 mod_ssl_package
 mongodb_client_package
