@@ -108,6 +108,5 @@ swift_plugin_swift3_package
 swift_proxy_package
 targetcli_package
 tftp_server_package
-tgt_package
 xinetd_package
 zaqar_package
