@@ -1,5 +1,6 @@
 crudini
 docker
+python_docker_py
 python_ipaddr
 openstack_selinux
 net_snmp

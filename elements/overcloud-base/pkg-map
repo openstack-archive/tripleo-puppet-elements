@@ -2,6 +2,7 @@
   "default": {
     "crudini": "crudini",
     "docker": "docker",
+    "python_docker_py": "python-docker-py",
     "python_ipaddr": "python-ipaddr",
     "openstack_selinux": "openstack-selinux",
     "net_snmp": "net-snmp"
