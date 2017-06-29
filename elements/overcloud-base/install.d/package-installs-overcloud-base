@@ -1,3 +1,4 @@
+ansible_pacemaker
 crudini
 docker
 python_ipaddr

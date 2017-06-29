@@ -1,5 +1,6 @@
 {
   "default": {
+    "ansible_pacemaker": "ansible-pacemaker",
     "crudini": "crudini",
     "docker": "docker",
     "python_ipaddr": "python-ipaddr",
