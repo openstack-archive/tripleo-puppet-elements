@@ -1,0 +1,5 @@
+---
+features:
+  - Added puppet-opendaylight to the overcloud image. Adding OpenDayLight
+    controller increases the overcloud image size and hence needs to installed
+    by user via virt-customize.
