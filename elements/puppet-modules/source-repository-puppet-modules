@@ -77,3 +77,4 @@ puppet-ec2api git /opt/stack/puppet-modules/ec2api https://git.openstack.org/ope
 puppet-qdr git /opt/stack/puppet-modules/qdr https://git.openstack.org/openstack/puppet-qdr.git
 puppet-systemd git /opt/stack/puppet-modules/systemd https://github.com/camptocamp/puppet-systemd.git
 puppet-etcd git /opt/stack/puppet-modules/etcd https://github.com/cristifalcas/puppet-etcd.git
+puppet-veritas_hyperscale git /opt/stack/puppet-modules/veritas_hyperscale https://github.com/vtas-hyperscale-ci/puppet-veritas_hyperscale.git

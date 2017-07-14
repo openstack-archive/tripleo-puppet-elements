@@ -82,7 +82,8 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     sensu-puppet \
     puppet-kmod \
     puppet-etcd \
-    puppet-zaqar; do
+    puppet-zaqar \
+    puppet-veritas_hyperscale; do
     export DIB_INSTALLTYPE_${module_name//\-/_}='source'
   done
 fi
