@@ -113,7 +113,6 @@
     "targetcli_package": "targetcli",
     "tacker_package": "openstack-tacker",
     "tftp_server_package": "tftp-server",
-    "tgt_package": "scsi-target-utils",
     "xinetd_package": "xinetd",
     "zaqar_package": "openstack-zaqar"
   }
