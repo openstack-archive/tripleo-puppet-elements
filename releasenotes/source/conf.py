@@ -52,9 +52,9 @@ copyright = u'2016, TripleO Developers'
 # built documents.
 #
 # The full version, including alpha/beta/rc tags.
-release = '6.1.0'
+release = '6.2.0'
 # The short X.Y version.
-version = '6.1.0'
+version = '6.2.0'
 
 # The full version, including alpha/beta/rc tags.
 
