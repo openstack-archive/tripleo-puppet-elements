@@ -4,5 +4,7 @@ set -eu
 set -o pipefail
 
 # In order to make sure not all nodes have the same machine id, we need to
-# remove it from the image and it should be generated on boot. LP#1672461
-rm -f /etc/machine-id
+# clear it from the image and it should be generated on boot. LP#1672461
+# It should be noted that if this file doesn't exist, odd interactions may
+# occur.
+:> /etc/machine-id
