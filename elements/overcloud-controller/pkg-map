@@ -101,6 +101,7 @@
     "sahara_engine_package": "openstack-sahara-engine",
     "sahara_ui_package": "openstack-sahara-ui",
     "socat_package": "socat",
+    "stunnel_package": "stunnel",
     "sushy_package": "python-sushy",
     "trove_api_package": "openstack-trove-api",
     "trove_conductor_package": "openstack-trove-conductor",
