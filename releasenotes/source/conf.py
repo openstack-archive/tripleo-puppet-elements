@@ -53,9 +53,9 @@ copyright = u'2016, TripleO Developers'
 #
 
 # The full version, including alpha/beta/rc tags.
-release = '7.0.0.0rc1'
+release = ''
 # The short X.Y version.
-version = '7.0.0'
+version = ''
 
 # The full version, including alpha/beta/rc tags.
 
