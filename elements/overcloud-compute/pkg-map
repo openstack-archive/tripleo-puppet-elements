@@ -1,10 +1,12 @@
 {
   "default": {
+    "bagpipe_agent_package": "openstack-bagpipe-bgp",
     "ceilometer_compute_package": "openstack-ceilometer-compute",
     "ceph_package": "ceph",
     "dpdk_package": "dpdk",
     "driverctl_package": "driverctl",
     "libvirt_package": "libvirt",
+    "networking_bagpipe_package": "python-networking-bagpipe",
     "neutron_package": "openstack-neutron",
     "neutron_ml2_package": "openstack-neutron-ml2",
     "neutron_linuxbridge_package": "openstack-neutron-linuxbridge",

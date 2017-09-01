@@ -65,6 +65,7 @@
     "neutron_ml2_package": "openstack-neutron-ml2",
     "neutron_openvswitch_package": "openstack-neutron-openvswitch",
     "neutron_package": "openstack-neutron",
+    "networking_bagpipe_package": "python-networking-bagpipe",
     "networking_bgpvpn_package": "python-networking-bgpvpn",
     "networking_l2gw_package": "python-networking-l2gw",
     "networking_odl_package": "python-networking-odl",
