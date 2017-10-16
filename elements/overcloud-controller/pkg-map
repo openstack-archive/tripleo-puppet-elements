@@ -7,7 +7,6 @@
     "barbican_api_package": "openstack-barbican-api",
     "ceilometer_api_package": "openstack-ceilometer-api",
     "ceilometer_central_package": "openstack-ceilometer-central",
-    "ceilometer_collector_package": "openstack-ceilometer-collector",
     "ceilometer_notification_package": "openstack-ceilometer-notification",
     "ceilometer_ipmi_package": "openstack-ceilometer-ipmi",
     "ceph_mon_package": "ceph-mon",
