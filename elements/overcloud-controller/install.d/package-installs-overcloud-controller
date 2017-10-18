@@ -57,6 +57,7 @@ mongodb_server_package
 memcached_package
 neutron_metering_package
 neutron_lbaas_package
+neutron_lbaas_ui_package
 neutron_linuxbridge_package
 neutron_l2gw_package
 neutron_ml2_package
