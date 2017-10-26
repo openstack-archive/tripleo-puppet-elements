@@ -5,7 +5,6 @@
     "aodh_evaluator_package": "openstack-aodh-evaluator",
     "aodh_listener_package": "openstack-aodh-listener",
     "barbican_api_package": "openstack-barbican-api",
-    "ceilometer_api_package": "openstack-ceilometer-api",
     "ceilometer_central_package": "openstack-ceilometer-central",
     "ceilometer_collector_package": "openstack-ceilometer-collector",
     "ceilometer_notification_package": "openstack-ceilometer-notification",
