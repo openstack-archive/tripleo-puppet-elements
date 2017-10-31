@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+set -o xtrace
+
+if [[ "centos7 fedora" =~ "$DISTRO_NAME" ]]; then
+  install-packages -m overcloud-base yum_plugin_priorities_package
+fi

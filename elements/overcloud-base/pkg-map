@@ -6,6 +6,7 @@
     "python_docker_py": "python-docker-py",
     "python_ipaddr": "python-ipaddr",
     "openstack_selinux": "openstack-selinux",
-    "net_snmp": "net-snmp"
+    "net_snmp": "net-snmp",
+    "yum_plugin_priorities_package": "yum-plugin-priorities"
   }
 }
