@@ -4,7 +4,6 @@ aodh_evaluator_package
 aodh_listener_package
 barbican_api_package
 ceilometer_central_package
-ceilometer_collector_package
 ceilometer_notification_package
 ceilometer_ipmi_package
 congress_package
