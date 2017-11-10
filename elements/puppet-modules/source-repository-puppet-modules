@@ -48,7 +48,6 @@ puppet-staging git /opt/stack/puppet-modules/staging https://github.com/nanliu/p
 puppetlabs-stdlib git /opt/stack/puppet-modules/stdlib https://github.com/puppetlabs/puppetlabs-stdlib.git
 puppet-swift git /opt/stack/puppet-modules/swift https://git.openstack.org/openstack/puppet-swift.git
 puppetlabs-sysctl git /opt/stack/puppet-modules/sysctl https://github.com/puppetlabs/puppetlabs-sysctl.git
-puppet-tempest git /opt/stack/puppet-modules/tempest https://git.openstack.org/openstack/puppet-tempest.git
 puppet-timezone git /opt/stack/puppet-modules/timezone https://github.com/saz/puppet-timezone.git
 puppet-uchiwa git /opt/stack/puppet-modules/uchiwa https://github.com/Yelp/puppet-uchiwa.git
 puppetlabs-vcsrepo git /opt/stack/puppet-modules/vcsrepo https://github.com/puppetlabs/puppetlabs-vcsrepo.git
