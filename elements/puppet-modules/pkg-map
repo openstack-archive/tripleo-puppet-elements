@@ -1,5 +1,5 @@
 {
   "default": {
-    "puppet_modules_package": "openstack-puppet-modules"
+    "puppet_modules_package": "puppet-tripleo"
   }
 }
