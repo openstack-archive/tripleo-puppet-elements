@@ -1,6 +1,7 @@
 ansible_pacemaker
 crudini
 docker
+libreswan
 python_docker_py
 python_ipaddr
 openstack_selinux
