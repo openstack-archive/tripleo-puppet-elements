@@ -1,5 +1,6 @@
 {
   "default": {
+    "aide": "aide",
     "ansible_pacemaker": "ansible-pacemaker",
     "crudini": "crudini",
     "docker": "docker",
