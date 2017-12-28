@@ -5,6 +5,7 @@ dpdk_package
 driverctl_package
 libvirt_package
 networking_bagpipe_package
+networking_ovn_metadata_package
 networking_sfc_package
 neutron_package
 neutron_ml2_package

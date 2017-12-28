@@ -13,6 +13,7 @@
     "neutron_openvswitch_package": "openstack-neutron-openvswitch",
     "neutron_package": "openstack-neutron",
     "neutron_sriov_agent_package": "openstack-neutron-sriov-nic-agent",
+    "networking_ovn_metadata_package": "python-networking-ovn-metadata-agent",
     "networking_sfc_package": "python-networking-sfc",
     "nfs_package": "nfs-utils",
     "nova_compute_package": "openstack-nova-compute",
