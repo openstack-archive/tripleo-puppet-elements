@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ ${DIB_DEBUG_TRACE:-1} -gt 0 ]; then
+    set -x
+fi
+set -eu
+set -o pipefail
+
+# Clear the resolv.conf so that the nameserver configuration does not inherit
+# any incorrect nameservers from the image. LP#1749756
+# NOTE: This relies on the fact the DIB copies the original resolv.conf and
+# during the finalise_base function in img-functions (in DIB) copies the old
+# one back in place after the build process completes.
+sudo sed -i '/nameserver/d' $TARGET_ROOT/etc/resolv.conf.ORIG
