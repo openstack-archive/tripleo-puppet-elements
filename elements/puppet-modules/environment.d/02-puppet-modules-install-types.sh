@@ -84,7 +84,8 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-etcd \
     puppet-zaqar \
     puppet-veritas_hyperscale \
-    puppet-ptp; do
+    puppet-ptp \
+    puppet-vitrage; do
     export DIB_INSTALLTYPE_${module_name//\-/_}='source'
   done
 fi

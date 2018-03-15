@@ -114,6 +114,11 @@
     "targetcli_package": "targetcli",
     "tacker_package": "openstack-tacker",
     "tftp_server_package": "tftp-server",
+    "vitrage_api_package": "openstack-vitrage-api",
+    "vitrage_collector_package": "openstack-vitrage-collector",
+    "vitrage_graph_package": "openstack-vitrage-graph",
+    "vitrage_persistor_package": "openstack-vitrage-persistor",
+    "vitrage_notifier_package": "openstack-vitrage-notifier",
     "xinetd_package": "xinetd",
     "zaqar_package": "openstack-zaqar"
   }
