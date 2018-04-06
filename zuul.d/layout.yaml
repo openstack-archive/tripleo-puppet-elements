@@ -3,3 +3,4 @@
     templates:
       - tripleo-multinode-baremetal-minimal
       - tripleo-multinode-container-minimal
+      - tripleo-buildimage-jobs
