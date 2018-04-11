@@ -28,7 +28,6 @@
     "gnocchi_metricd_package": "openstack-gnocchi-metricd",
     "haproxy_package": "haproxy",
     "heat_api_cfn_package": "openstack-heat-api-cfn",
-    "heat_api_cloudwatch_package": "openstack-heat-api-cloudwatch",
     "heat_api_package": "openstack-heat-api",
     "heat_engine_package": "openstack-heat-engine",
     "horizon_package": "openstack-dashboard",
