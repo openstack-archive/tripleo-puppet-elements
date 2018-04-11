@@ -26,7 +26,6 @@ fence_virt_package
 glance_package
 haproxy_package
 heat_api_cfn_package
-heat_api_cloudwatch_package
 heat_api_package
 heat_engine_package
 horizon_package
