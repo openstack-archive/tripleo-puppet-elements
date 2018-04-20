@@ -1,5 +1,6 @@
 {
   "default": {
+    "ceph_osd_package": "ceph-osd",
     "ntp_package": "ntp"
   }
 }

@@ -7,4 +7,3 @@ python_docker_py
 python_ipaddr
 openstack_selinux
 net_snmp
-iptables_services
