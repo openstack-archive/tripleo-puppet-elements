@@ -8,6 +8,7 @@ haproxy_package
 ipa_admintools_package
 ipa_client_package
 ipxe_bootimgs_package
+keepalived_package
 mariadb_package
 mariadb_server_package
 mod_auth_mellon_package

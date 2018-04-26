@@ -11,6 +11,7 @@
     "ipa_client_package": "ipa-client",
     "ipxe_bootimgs_package": "ipxe-bootimgs",
     "iscsi_package": "iscsi-initiator-utils",
+    "keepalived_package": "keepalived",
     "mariadb_package": "mariadb",
     "mariadb_server_package": "mariadb-galera-server",
     "memcached_package": "memcached",
