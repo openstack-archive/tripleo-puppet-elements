@@ -1,4 +1,0 @@
-#!/bin/bash
-set -eux
-
-systemctl enable os-collect-config

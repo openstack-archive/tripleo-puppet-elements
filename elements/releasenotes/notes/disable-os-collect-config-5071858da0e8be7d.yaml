@@ -1,0 +1,6 @@
+---
+other:
+  - The os-collect-config service is now disabled by default. With the switch
+    to config-download and applying all software configuration with a central
+    Ansible control node (undercloud), os-collect-config no longer needs to be
+    enabled by default.
