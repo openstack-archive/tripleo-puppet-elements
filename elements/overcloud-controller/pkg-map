@@ -2,7 +2,6 @@
   "default": {
     "certmonger": "certmonger",
     "cyrus_sasl_plain_package": "cyrus-sasl-plain",
-    "dracclient_package": "python-dracclient",
     "etcd_package": "etcd",
     "fence_agents_package": "fence-agents-all",
     "fence_virt_package": "fence-virt",
@@ -26,17 +25,11 @@
     "python_memcached_package": "python-memcached",
     "pacemaker_package": "pacemaker",
     "pcs_package": "pcs",
-    "proliantutils_package": "python-proliantutils",
     "qpid_dispatch_router_package": "qpid-dispatch-router",
     "qpid_dispatch_tools_package": "qpid-dispatch-tools",
     "rabbitmq_server_package": "rabbitmq-server",
     "redis_client_package": "python-redis",
     "redis_server_package": "redis",
-    "socat_package": "socat",
-    "stunnel_package": "stunnel",
-    "sushy_package": "python-sushy",
-    "targetcli_package": "targetcli",
-    "tftp_server_package": "tftp-server",
-    "xinetd_package": "xinetd"
+    "stunnel_package": "stunnel"
   }
 }
