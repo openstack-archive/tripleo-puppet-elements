@@ -1,33 +1,5 @@
 {
   "default": {
-    "fluentd_package": "fluentd",
-      "fluent_plugin_add_package": "rubygem-fluent-plugin-add",
-      "fluent_plugin_secure_forward_package": "rubygem-fluent-plugin-secure-forward",
-      "oschecks_package": "osops-tools-monitoring-oschecks",
-      "sensu_package": "sensu",
-      "collectd_package": "collectd",
-      "collectd_plugin_apache_package": "collectd-apache",
-      "collectd_plugin_ceph_package": "collectd-ceph",
-      "collectd_plugin_curl_json_package": "collectd-curl_json",
-      "collectd_plugin_curl_package": "collectd-curl",
-      "collectd_plugin_curl_xml_package": "collectd-curl_xml",
-      "collectd_plugin_disk_package": "collectd-disk",
-      "collectd_plugin_gnocchi": "python-collectd-gnocchi",
-      "collectd_plugin_ipmi_package": "collectd-ipmi",
-      "collectd_plugin_iptables_package": "collectd-iptables",
-      "collectd_plugin_lvm_package": "collectd-lvm",
-      "collectd_plugin_mysql_package": "collectd-mysql",
-      "collectd_plugin_netlink_package": "collectd-netlink",
-      "collectd_plugin_ping_package": "collectd-ping",
-      "collectd_plugin_python": "collectd-python",
-      "collectd_plugin_rabbitmq_package": "python-collectd-rabbitmq",
-      "collectd_plugin_rrdcached_package": "collectd-rrdcached",
-      "collectd_plugin_rrdtool_package": "collectd-rrdtool",
-      "collectd_plugin_sensors_package": "collectd-sensors",
-      "collectd_plugin_smart_package": "collectd-smart",
-      "collectd_plugin_virt_package": "collectd-virt",
-      "collectd_plugin_write_http_package": "collectd-write_http",
-      "collectd_plugin_write_sensu_package": "collectd-write_sensu",
-      "collectd_utils_package": "collectd-utils"
+    "oschecks_package": "osops-tools-monitoring-oschecks"
   }
 }
