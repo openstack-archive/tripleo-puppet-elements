@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -eu
+set -o pipefail
+
+# https://bugs.launchpad.net/tripleo/+bug/1774557
+sed -i 's/#UseDNS yes/UseDNS no/' /etc/ssh/sshd_config
