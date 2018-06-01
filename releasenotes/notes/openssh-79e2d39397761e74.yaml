@@ -1,0 +1,6 @@
+---
+features:
+  - |
+    An element can now override the default openssh configuration.
+    For now, we set UseDNS to 'no' to avoid timeouts when Ansible tries
+    to run remote tasks via ssh.
