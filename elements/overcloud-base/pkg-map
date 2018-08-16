@@ -4,6 +4,7 @@
     "ansible_pacemaker": "ansible-pacemaker",
     "crudini": "crudini",
     "docker": "docker",
+    "podman": "podman",
     "libreswan": "libreswan",
     "python_docker_py": "python-docker-py",
     "python_ipaddr": "python-ipaddr",
