@@ -7,8 +7,6 @@
     "ntp_package": "ntp",
     "pacemaker_remote_package": "pacemaker-remote",
     "sasl_scram_package": "cyrus-sasl-scram",
-    "skydive_package": "skydive",
-    "skydive_agent_package": "skydive-agent",
     "tuned_profiles_cpu_partitioning_package": "tuned-profiles-cpu-partitioning"
   }
 }
