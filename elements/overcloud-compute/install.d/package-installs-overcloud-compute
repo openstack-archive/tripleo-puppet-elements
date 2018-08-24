@@ -5,6 +5,4 @@ nfs_package
 ntp_package
 pacemaker_remote_package
 sasl_scram_package
-skydive_package
-skydive_agent_package
 tuned_profiles_cpu_partitioning_package
