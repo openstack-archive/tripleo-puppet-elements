@@ -4,4 +4,4 @@
       - tripleo-multinode-container-minimal
       - tripleo-buildimage-jobs
       - openstack-python-jobs
-      - release-notes-jobs
+      - release-notes-jobs-python3
