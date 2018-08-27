@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -eux
+set -o pipefail
+
+rm -f /etc/libvirt/qemu/networks/autostart/default.xml
