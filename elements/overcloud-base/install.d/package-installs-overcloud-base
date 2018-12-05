@@ -1,5 +1,6 @@
 aide
 ansible_pacemaker
+ansible_role_redhat_subscription
 crudini
 docker
 libreswan

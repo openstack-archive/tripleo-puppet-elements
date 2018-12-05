@@ -2,6 +2,7 @@
   "default": {
     "aide": "aide",
     "ansible_pacemaker": "ansible-pacemaker",
+    "ansible_role_redhat_subscription": "ansible-role-redhat-subscription",
     "crudini": "crudini",
     "docker": "docker",
     "libreswan": "libreswan",
