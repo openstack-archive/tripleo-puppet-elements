@@ -1,28 +1,31 @@
+========================
 Team and repository tags
 ========================
 
-[![Team and repository tags](http://governance.openstack.org/badges/tripleo-puppet-elements.svg)](http://governance.openstack.org/reference/tags/index.html)
+.. image:: http://governance.openstack.org/badges/tripleo-puppet-elements.svg
+    :target: http://governance.openstack.org/reference/tags/index.html
 
-<!-- Change things from this point on -->
+.. Change things from this point on
 
 Puppet building rules for OpenStack images
 ==========================================
 
 These elements are used to build disk images for deploying OpenStack via Heat.
-They are built as part of the TripleO (https://wiki.openstack.org/wiki/TripleO)
-umbrella project.
+They are built as part of the TripleO_ umbrella project.
+
+.. _TripleO: https://wiki.openstack.org/wiki/TripleO
 
 Instructions
 ------------
 
 Checkout this source tree and also the diskimage builder, export an
-ELEMENTS\_PATH to add elements from this tree, and build any disk images you
-need.
+ELEMENTS_PATH to add elements from this tree, and build any disk images you
+need::
 
-	git clone https://git.openstack.org/openstack/diskimage-builder.git
-	git clone https://git.openstack.org/openstack/tripleo-puppet-elements.git
-	export ELEMENTS_PATH=tripleo-puppet-elements/elements
-	diskimage-builder/bin/disk-image-create -u base vm bootstrap local-config stackuser heat-cfntools -a i386 -o bootstrap
+    git clone https://git.openstack.org/openstack/diskimage-builder.git
+    git clone https://git.openstack.org/openstack/tripleo-puppet-elements.git
+    export ELEMENTS_PATH=tripleo-puppet-elements/elements
+    diskimage-builder/bin/disk-image-create -u base vm bootstrap local-config stackuser heat-cfntools -a i386 -o bootstrap
 
 Common element combinations
 ---------------------------
@@ -80,9 +83,7 @@ Copyright
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may
 not use this file except in compliance with the License. You may obtain
-a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
+a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
