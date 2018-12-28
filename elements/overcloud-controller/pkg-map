@@ -16,8 +16,6 @@
     "memcached_package": "memcached",
     "mod_auth_mellon_package": "mod_auth_mellon",
     "mod_ssl_package": "mod_ssl",
-    "mongodb_client_package": "mongodb",
-    "mongodb_server_package": "mongodb-server",
     "nfs_package": "nfs-utils",
     "ntp_package": "ntp",
     "python_cradox_package": "python-cradox",

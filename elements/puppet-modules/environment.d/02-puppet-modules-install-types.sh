@@ -36,7 +36,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-kibana3 \
     puppet-memcached \
     puppet-mistral \
-    puppetlabs-mongodb \
     puppetlabs-mysql \
     puppet-neutron \
     puppet-octavia \
