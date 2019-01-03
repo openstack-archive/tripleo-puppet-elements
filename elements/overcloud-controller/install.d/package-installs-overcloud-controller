@@ -12,8 +12,6 @@ mariadb_package
 mariadb_server_package
 mod_auth_mellon_package
 mod_ssl_package
-mongodb_client_package
-mongodb_server_package
 nfs_package
 ntp_package
 pacemaker_package
