@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -eux
+set -o pipefail
+
+if [ ! -f /usr/bin/ansible-playbook ]; then
+    if [ -f /usr/bin/ansible-playbook-3 ]; then
+        ln -s -f /usr/bin/ansible-playbook-3 /usr/local/bin/ansible-playbook
+    fi
+else
+    if [ ! -f /usr/bin/ansible-playbook-3 ]; then
+        ln -s -f /usr/bin/ansible-playbook /usr/local/bin/ansible-playbook-3
+    fi
+fi
