@@ -1,33 +1,15 @@
 {
   "default": {
     "certmonger": "certmonger",
-    "cyrus_sasl_plain_package": "cyrus-sasl-plain",
-    "etcd_package": "etcd",
     "fence_agents_package": "fence-agents-all",
     "fence_virt_package": "fence-virt",
-    "haproxy_package": "haproxy",
     "ipa_admintools_package": "ipa-admintools",
     "ipa_client_package": "ipa-client",
     "ipxe_bootimgs_package": "ipxe-bootimgs",
-    "iscsi_package": "iscsi-initiator-utils",
-    "keepalived_package": "keepalived",
-    "mariadb_package": "mariadb",
-    "mariadb_server_package": "mariadb-galera-server",
-    "memcached_package": "memcached",
-    "mod_auth_mellon_package": "mod_auth_mellon",
-    "mod_ssl_package": "mod_ssl",
     "nfs_package": "nfs-utils",
     "ntp_package": "ntp",
-    "python_cradox_package": "python-cradox",
     "python_openstackclient_package": "python-openstackclient",
-    "python_memcached_package": "python-memcached",
     "pacemaker_package": "pacemaker",
-    "pcs_package": "pcs",
-    "qpid_dispatch_router_package": "qpid-dispatch-router",
-    "qpid_dispatch_tools_package": "qpid-dispatch-tools",
-    "rabbitmq_server_package": "rabbitmq-server",
-    "redis_client_package": "python-redis",
-    "redis_server_package": "redis",
-    "stunnel_package": "stunnel"
+    "pcs_package": "pcs"
   }
 }
