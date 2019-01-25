@@ -1,4 +1,0 @@
-#!/bin/bash
-set -eux
-
-gem install serverspec
