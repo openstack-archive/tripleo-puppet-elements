@@ -4,6 +4,7 @@
     "ansible_pacemaker": "ansible-pacemaker",
     "crudini": "crudini",
     "docker": "docker",
+    "gdisk": "gdisk",
     "podman": "podman",
     "libreswan": "libreswan",
     "python_docker_py": "python-docker-py",

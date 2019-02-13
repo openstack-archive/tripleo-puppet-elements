@@ -2,6 +2,7 @@ aide
 ansible_pacemaker
 crudini
 docker
+gdisk
 podman
 libreswan
 python_docker_py
