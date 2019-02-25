@@ -1,5 +1,5 @@
 {
   "default": {
-    "ntp_package": "ntp"
+    "chrony_package": "chrony"
   }
 }

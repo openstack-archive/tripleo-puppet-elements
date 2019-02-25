@@ -7,7 +7,7 @@
     "ipa_client_package": "ipa-client",
     "ipxe_bootimgs_package": "ipxe-bootimgs",
     "nfs_package": "nfs-utils",
-    "ntp_package": "ntp",
+    "chrony_package": "chrony",
     "python_openstackclient_package": "python-openstackclient",
     "pacemaker_package": "pacemaker",
     "pcs_package": "pcs"

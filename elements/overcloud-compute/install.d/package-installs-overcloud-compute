@@ -2,7 +2,7 @@ dpdk_package
 driverctl_package
 libvirt_package
 nfs_package
-ntp_package
+chrony_package
 pacemaker_remote_package
 sasl_scram_package
 tuned_profiles_cpu_partitioning_package

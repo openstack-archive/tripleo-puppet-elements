@@ -5,7 +5,7 @@ ipa_admintools_package
 ipa_client_package
 ipxe_bootimgs_package
 nfs_package
-ntp_package
+chrony_package
 pacemaker_package
 pcs_package
 python_openstackclient_package
