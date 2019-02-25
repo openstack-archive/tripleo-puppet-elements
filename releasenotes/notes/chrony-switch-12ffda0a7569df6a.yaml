@@ -1,0 +1,5 @@
+---
+other:
+  - |
+    ntp is no longer installed in the overcloud images by default as we have
+    switched to chrony as the default time service.
