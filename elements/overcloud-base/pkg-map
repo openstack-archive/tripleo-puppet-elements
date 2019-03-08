@@ -11,6 +11,7 @@
     "openstack_selinux": "openstack-selinux",
     "net_snmp": "net-snmp",
     "numactl": "numactl",
-    "yum_plugin_priorities_package": "yum-plugin-priorities"
+    "yum_plugin_priorities_package": "yum-plugin-priorities",
+    "tmpwatch": "tmpwatch"
   }
 }
