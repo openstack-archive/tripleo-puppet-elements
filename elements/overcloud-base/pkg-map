@@ -11,6 +11,7 @@
     "python_ipaddr": "python-ipaddr",
     "openstack_selinux": "openstack-selinux",
     "net_snmp": "net-snmp",
+    "numactl": "numactl",
     "yum_plugin_priorities_package": "yum-plugin-priorities",
     "iptables_services": "iptables-services",
     "tmpwatch": "tmpwatch"
