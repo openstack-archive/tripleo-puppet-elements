@@ -12,3 +12,4 @@ net_snmp
 numactl
 iptables_services
 tmpwatch
+openssl-perl
