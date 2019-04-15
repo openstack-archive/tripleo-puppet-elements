@@ -9,6 +9,11 @@
       "28": {
         "python-heat-agent": "python3-heat-agent"
       }
+    },
+    "rhel": {
+      "8": {
+        "python-heat-agent": "python3-heat-agent"
+      }
     }
   },
   "default": {

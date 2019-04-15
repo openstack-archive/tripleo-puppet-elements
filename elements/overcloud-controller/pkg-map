@@ -1,4 +1,11 @@
 {
+  "release": {
+    "rhel": {
+      "8": {
+        "python_openstackclient_package": "python3-openstackclient"
+      }
+    }
+  },
   "default": {
     "certmonger": "certmonger",
     "fence_agents_package": "fence-agents-all",

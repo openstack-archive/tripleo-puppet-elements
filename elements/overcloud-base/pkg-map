@@ -1,4 +1,13 @@
 {
+  "release": {
+    "rhel": {
+      "8": {
+        "yum_plugin_priorities_package": "",
+        "python_ipaddr": "",
+        "python_docker_py": ""
+      }
+    }
+  },
   "default": {
     "aide": "aide",
     "ansible_pacemaker": "ansible-pacemaker",
