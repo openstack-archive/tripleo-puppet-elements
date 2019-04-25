@@ -94,7 +94,6 @@
     "qpid_dispatch_tools_package": "qpid-dispatch-tools",
     "rabbitmq_server_package": "rabbitmq-server",
     "redis_client_package": "python-redis",
-    "redis_server_package": "redis",
     "sahara_package": "openstack-sahara",
     "sahara_api_package": "openstack-sahara-api",
     "sahara_engine_package": "openstack-sahara-engine",
