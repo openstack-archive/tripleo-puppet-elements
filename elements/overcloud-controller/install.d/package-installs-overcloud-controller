@@ -22,5 +22,4 @@ python_cradox_package
 python_openstackclient_package
 python_memcached_package
 redis_client_package
-redis_server_package
 stunnel_package
