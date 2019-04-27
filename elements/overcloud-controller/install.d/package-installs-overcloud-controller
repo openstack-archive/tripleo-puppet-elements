@@ -91,7 +91,6 @@ qpid_dispatch_router_package
 qpid_dispatch_tools_package
 rabbitmq_server_package
 redis_client_package
-redis_server_package
 sahara_api_package
 sahara_engine_package
 sahara_package
