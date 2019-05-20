@@ -21,7 +21,6 @@
     "nfs_package": "nfs-utils",
     "ntp_package": "ntp",
     "python_cradox_package": "python-cradox",
-    "python_openstackclient_package": "python-openstackclient",
     "python_memcached_package": "python-memcached",
     "pacemaker_package": "pacemaker",
     "pcs_package": "pcs",

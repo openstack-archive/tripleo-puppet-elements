@@ -19,7 +19,6 @@ ntp_package
 pacemaker_package
 pcs_package
 python_cradox_package
-python_openstackclient_package
 python_memcached_package
 redis_client_package
 stunnel_package
