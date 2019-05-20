@@ -1,0 +1,68 @@
+{
+  "release": {
+      "centos": {
+          "7": {
+            "aodhclient_package": "python2-aodhclient",
+            "barbicanclient_package": "python2-barbicanclient",
+            "cinderclient_package": "python2-cinderclient",
+            "designateclient_package": "python2-designateclient",
+            "glanceclient_package": "python2-glanceclient",
+            "gnocchiclient_package": "python2-gnocchiclient",
+            "heatclient_package": "python2-heatclient",
+            "ironicclient_package": "python2-ironicclient",
+            "keystoneclient_package": "python2-keystoneclient",
+            "manilaclient_package": "python2-manilaclient",
+            "mistralclient_package": "python2-mistralclient",
+            "neutronclient_package": "python2-neutronclient",
+            "novaclient_package": "python2-novaclient",
+            "openstackclient_package": "python2-openstackclient",
+            "pankoclient_package": "python2-pankoclient",
+            "saharaclient_package": "python2-saharaclient",
+            "swiftclient_package": "python2-swiftclient",
+            "zaqarclient_package": "python2-zaqarclient"
+          }
+      },
+      "rhel": {
+          "7": {
+            "aodhclient_package": "python2-aodhclient",
+            "barbicanclient_package": "python2-barbicanclient",
+            "cinderclient_package": "python2-cinderclient",
+            "designateclient_package": "python2-designateclient",
+            "glanceclient_package": "python2-glanceclient",
+            "gnocchiclient_package": "python2-gnocchiclient",
+            "heatclient_package": "python2-heatclient",
+            "ironicclient_package": "python2-ironicclient",
+            "keystoneclient_package": "python2-keystoneclient",
+            "manilaclient_package": "python2-manilaclient",
+            "mistralclient_package": "python2-mistralclient",
+            "neutronclient_package": "python2-neutronclient",
+            "novaclient_package": "python2-novaclient",
+            "openstackclient_package": "python2-openstackclient",
+            "pankoclient_package": "python2-pankoclient",
+            "saharaclient_package": "python2-saharaclient",
+            "swiftclient_package": "python2-swiftclient",
+            "zaqarclient_package": "python2-zaqarclient"
+          }
+      }
+  },
+  "default": {
+    "aodhclient_package": "python3-aodhclient",
+    "barbicanclient_package": "python3-barbicanclient",
+    "cinderclient_package": "python3-cinderclient",
+    "designateclient_package": "python3-designateclient",
+    "glanceclient_package": "python3-glanceclient",
+    "gnocchiclient_package": "python3-gnocchiclient",
+    "heatclient_package": "python3-heatclient",
+    "ironicclient_package": "python3-ironicclient",
+    "keystoneclient_package": "python3-keystoneclient",
+    "manilaclient_package": "python3-manilaclient",
+    "mistralclient_package": "python3-mistralclient",
+    "neutronclient_package": "python3-neutronclient",
+    "novaclient_package": "python3-novaclient",
+    "openstackclient_package": "python3-openstackclient",
+    "pankoclient_package": "python3-pankoclient",
+    "saharaclient_package": "python3-saharaclient",
+    "swiftclient_package": "python3-swiftclient",
+    "zaqarclient_package": "python3-zaqarclient"
+  }
+}
