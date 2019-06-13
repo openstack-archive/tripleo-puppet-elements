@@ -22,8 +22,8 @@ Checkout this source tree and also the diskimage builder, export an
 ELEMENTS_PATH to add elements from this tree, and build any disk images you
 need::
 
-    git clone https://git.openstack.org/openstack/diskimage-builder.git
-    git clone https://git.openstack.org/openstack/tripleo-puppet-elements.git
+    git clone https://opendev.org/openstack/diskimage-builder.git
+    git clone https://opendev.org/openstack/tripleo-puppet-elements.git
     export ELEMENTS_PATH=tripleo-puppet-elements/elements
     diskimage-builder/bin/disk-image-create -u base vm bootstrap local-config stackuser heat-cfntools -a i386 -o bootstrap
 
