@@ -13,3 +13,4 @@ numactl
 iptables_services
 tmpwatch
 openssl-perl
+lvm2
