@@ -1,4 +1,11 @@
 {
+  "release": {
+    "rhel": {
+      "8": {
+        "oschecks_package": ""
+      }
+    }
+  },
   "default": {
     "oschecks_package": "osops-tools-monitoring-oschecks"
   }
