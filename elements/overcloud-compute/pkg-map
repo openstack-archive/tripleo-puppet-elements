@@ -2,7 +2,6 @@
   "default": {
     "dpdk_package": "dpdk",
     "driverctl_package": "driverctl",
-    "libvirt_package": "libvirt",
     "nfs_package": "nfs-utils",
     "chrony_package": "chrony",
     "pacemaker_remote_package": "pacemaker-remote",
