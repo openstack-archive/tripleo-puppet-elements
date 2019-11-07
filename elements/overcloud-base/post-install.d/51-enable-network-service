@@ -4,5 +4,4 @@ set -eux
 set -o pipefail
 
 # https://launchpad.net/bugs/1823353
-systemctl enable network
-systemctl start network
+chkconfig network on
