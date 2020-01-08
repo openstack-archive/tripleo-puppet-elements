@@ -1,0 +1,6 @@
+---
+other:
+  - |
+    Nova services are now running in the containers but we have still
+    a lot of libvirt packages installed on Overcloud systems.
+    This change remove unnecessary libvirt packages.
