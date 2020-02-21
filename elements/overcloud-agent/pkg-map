@@ -14,6 +14,11 @@
       "8": {
         "python-heat-agent": "python3-heat-agent"
       }
+    },
+    "centos": {
+      "8": {
+        "python-heat-agent": "python3-heat-agent"
+      }
     }
   },
   "default": {
