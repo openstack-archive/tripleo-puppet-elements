@@ -1,6 +1,5 @@
 dpdk_package
 driverctl_package
-libvirt_package
 nfs_package
 chrony_package
 pacemaker_remote_package
