@@ -6,7 +6,7 @@ fi
 set -eu
 set -o pipefail
 
-if [[ "$DISTRO_NAME" == *"centos"* ]]; then
+if [[ "$DISTRO_NAME" == *"centos7"* ]]; then
     current_rt_repo=$(yum repolist all|grep "centos7-rt" |awk '{print $1}'| head -n 1 || true)
     if [[ "$current_rt_repo" == "" ]]; then
     cat << EOF > /etc/yum.repos.d/centos7-rt.repo
