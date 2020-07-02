@@ -1,0 +1,6 @@
+
+other:
+  - |
+    Element overcloud-opstools has been removed. The puropose of this element was to install
+    osops-tools-monitoring-oschecks package in overcloud images. This package is not supported
+    in CentOS 8.
