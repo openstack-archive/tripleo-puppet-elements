@@ -3,6 +3,7 @@ ansible_pacemaker
 crudini
 gdisk
 podman
+buildah
 libreswan
 python_ipaddr
 openstack_selinux
