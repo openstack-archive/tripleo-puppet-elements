@@ -1,5 +1,4 @@
 package-installs
 pkg-map
-overcloud-opstools
 overcloud-base
 overcloud-openstack-clients
