@@ -3,7 +3,7 @@
     "rhel": {
       "8": {
         "yum_plugin_priorities_package": "",
-        "docker": "podman-docker",
+        "docker": "",
         "python_ipaddr": "",
         "python_docker_py": ""
       }
@@ -11,7 +11,7 @@
     "centos": {
       "8": {
         "yum_plugin_priorities_package": "",
-        "docker": "podman-docker",
+        "docker": "",
         "python_ipaddr": "",
         "python_docker_py": ""
       }
