@@ -1,0 +1,11 @@
+certmonger:
+fence_agents_package:
+fence_virt_package:
+  arch: amd64
+ipa_admintools_package:
+ipa_client_package:
+ipxe_bootimgs_package:
+nfs_package:
+chrony_package:
+pacemaker_package:
+pcs_package:
