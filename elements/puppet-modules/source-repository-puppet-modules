@@ -78,4 +78,3 @@ puppet-systemd git /opt/stack/puppet-modules/systemd https://github.com/camptoca
 puppet-etcd git /opt/stack/puppet-modules/etcd https://github.com/cristifalcas/puppet-etcd.git
 puppet-veritas_hyperscale git /opt/stack/puppet-modules/veritas_hyperscale https://github.com/vtas-hyperscale-ci/puppet-veritas_hyperscale.git
 puppet-ptp git /opt/stack/puppet-modules/ptp https://github.com/redhat-nfvpe/ptp.git
-puppet-vitrage git /opt/stack/puppet-modules/vitrage https://opendev.org/openstack/puppet-vitrage.git
