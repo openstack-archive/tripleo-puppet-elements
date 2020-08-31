@@ -41,7 +41,6 @@ puppetlabs-rsync git /opt/stack/puppet-modules/rsync https://github.com/puppetla
 puppet-sahara git /opt/stack/puppet-modules/sahara https://opendev.org/openstack/puppet-sahara.git
 sensu-puppet git /opt/stack/puppet-modules/sensu https://github.com/sensu/sensu-puppet.git
 puppet-tacker git /opt/stack/puppet-modules/tacker https://opendev.org/openstack/puppet-tacker.git
-puppet-trove git /opt/stack/puppet-modules/trove https://opendev.org/openstack/puppet-trove.git
 puppet-ssh git /opt/stack/puppet-modules/ssh https://github.com/saz/puppet-ssh.git
 puppet-staging git /opt/stack/puppet-modules/staging https://github.com/nanliu/puppet-staging.git
 puppetlabs-stdlib git /opt/stack/puppet-modules/stdlib https://github.com/puppetlabs/puppetlabs-stdlib.git
