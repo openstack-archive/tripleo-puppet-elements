@@ -26,6 +26,7 @@
     "numactl": "numactl",
     "yum_plugin_priorities_package": "yum-plugin-priorities",
     "iptables_services": "iptables-services",
-    "tmpwatch": "tmpwatch"
+    "tmpwatch": "tmpwatch",
+    "sysstat": "sysstat"
   }
 }
