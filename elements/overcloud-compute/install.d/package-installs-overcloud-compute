@@ -6,3 +6,4 @@ pacemaker_remote_package
 sasl_scram_package
 tuned_profiles_cpu_partitioning_package
 ndctl_package
+linuxptp_package
