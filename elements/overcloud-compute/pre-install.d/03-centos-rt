@@ -1,0 +1,22 @@
+#!/bin/bash -x
+
+if [ "${DIB_DEBUG_TRACE:-0}" -gt 0 ]; then
+    set -x
+fi
+set -eu
+set -o pipefail
+
+if [[ "$DISTRO_NAME" == *"centos"* ]]; then
+    current_rt_repo=$(yum repolist all|grep "centos7-rt" |awk '{print $1}'| head -n 1 || true)
+    if [[ "$current_rt_repo" == "" ]]; then
+    cat << EOF > /etc/yum.repos.d/centos7-rt.repo
+[centos7-rt]
+name=CentOS 7 - Realtime
+baseurl=http://mirror.centos.org/centos/7/rt/x86_64/
+enabled=1
+gpgcheck=0
+EOF
+    else
+        yum-config-manager --enable $current_rt_repo
+    fi
+fi
