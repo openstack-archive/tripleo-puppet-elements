@@ -16,6 +16,7 @@
     "nfs_package": "nfs-utils",
     "chrony_package": "chrony",
     "pacemaker_package": "pacemaker",
-    "pcs_package": "pcs"
+    "pcs_package": "pcs",
+    "cephadm": "cephadm"
   }
 }

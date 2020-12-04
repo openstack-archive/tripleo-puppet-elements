@@ -1,3 +1,4 @@
+cephadm:
 certmonger:
 fence_agents_package:
 fence_virt_package:
