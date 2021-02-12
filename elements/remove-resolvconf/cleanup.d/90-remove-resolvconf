@@ -11,4 +11,6 @@ set -o pipefail
 # NOTE: This relies on the fact the DIB copies the original resolv.conf and
 # during the finalise_base function in img-functions (in DIB) copies the old
 # one back in place after the build process completes.
-sudo sed -i '/nameserver/d' $TARGET_ROOT/etc/resolv.conf.ORIG
+if [ -f $TARGET_ROOT/etc/resolv.conf.ORIG ] ; then
+    sudo sed -i '/nameserver/d' $TARGET_ROOT/etc/resolv.conf.ORIG
+fi
