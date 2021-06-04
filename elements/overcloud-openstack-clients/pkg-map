@@ -16,7 +16,6 @@
             "neutronclient_package": "python2-neutronclient",
             "novaclient_package": "python2-novaclient",
             "openstackclient_package": "python2-openstackclient",
-            "saharaclient_package": "python2-saharaclient",
             "swiftclient_package": "python2-swiftclient",
             "zaqarclient_package": "python2-zaqarclient"
           }
@@ -37,7 +36,6 @@
             "neutronclient_package": "python2-neutronclient",
             "novaclient_package": "python2-novaclient",
             "openstackclient_package": "python2-openstackclient",
-            "saharaclient_package": "python2-saharaclient",
             "swiftclient_package": "python2-swiftclient",
             "zaqarclient_package": "python2-zaqarclient"
           }
@@ -58,7 +56,6 @@
     "neutronclient_package": "python3-neutronclient",
     "novaclient_package": "python3-novaclient",
     "openstackclient_package": "python3-openstackclient",
-    "saharaclient_package": "python3-saharaclient",
     "swiftclient_package": "python3-swiftclient",
     "zaqarclient_package": "python3-zaqarclient"
   }
