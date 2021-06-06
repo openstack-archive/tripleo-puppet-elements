@@ -41,7 +41,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-nova \
     puppet-oslo \
     puppet-nssdb \
-    puppet-opendaylight \
     puppet-ovn \
     puppet-puppet \
     puppet-qdr \
