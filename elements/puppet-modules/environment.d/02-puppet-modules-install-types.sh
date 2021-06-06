@@ -73,8 +73,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppetlabs-corosync \
     puppet-pacemaker \
     puppet-manila \
-    puppet-uchiwa \
-    sensu-puppet \
     puppet-kmod \
     puppet-etcd \
     puppet-zaqar \
