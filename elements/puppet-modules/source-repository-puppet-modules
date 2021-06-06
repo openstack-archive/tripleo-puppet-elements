@@ -52,7 +52,6 @@ puppetlabs-xinetd git /opt/stack/puppet-modules/xinetd https://github.com/puppet
 puppet-zookeeper git /opt/stack/puppet-modules/zookeeper https://github.com/miguno/puppet-zookeeper.git
 puppet-openstacklib git /opt/stack/puppet-modules/openstacklib https://opendev.org/openstack/puppet-openstacklib.git
 puppet-module-keepalived git /opt/stack/puppet-modules/keepalived https://github.com/Unyonsys/puppet-module-keepalived.git
-puppetlabs-ntp git /opt/stack/puppet-modules/ntp https://github.com/puppetlabs/puppetlabs-ntp.git
 puppet-snmp git /opt/stack/puppet-modules/snmp https://github.com/razorsedge/puppet-snmp.git
 puppet-tripleo git /opt/stack/puppet-modules/tripleo https://opendev.org/openstack/puppet-tripleo.git
 puppet-ironic git /opt/stack/puppet-modules/ironic https://opendev.org/openstack/puppet-ironic.git
