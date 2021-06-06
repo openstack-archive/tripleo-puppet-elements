@@ -54,7 +54,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-swift \
     puppet-systemd \
     puppetlabs-sysctl \
-    puppet-timezone \
     puppetlabs-vcsrepo \
     puppet-vlan \
     puppet-vswitch \
