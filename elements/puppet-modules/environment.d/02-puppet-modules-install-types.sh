@@ -20,7 +20,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-ec2api \
     puppet-elasticsearch \
     puppetlabs-firewall \
-    konstantin-fluentd \
     puppet-galera \
     puppetlabs-git \
     puppet-glance \

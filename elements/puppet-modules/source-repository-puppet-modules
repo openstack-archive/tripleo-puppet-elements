@@ -61,7 +61,6 @@ puppetlabs-corosync git /opt/stack/puppet-modules/corosync https://github.com/pu
 puppet-pacemaker git /opt/stack/puppet-modules/pacemaker https://opendev.org/openstack/puppet-pacemaker.git
 puppet_aviator git /opt/stack/puppet-modules/aviator https://github.com/aimonb/puppet_aviator.git
 puppet-openstack_extras git /opt/stack/puppet-modules/openstack_extras https://opendev.org/openstack/puppet-openstack_extras.git
-konstantin-fluentd git /opt/stack/puppet-modules/fluentd https://github.com/soylent/konstantin-fluentd.git
 puppet-elasticsearch git /opt/stack/puppet-modules/elasticsearch https://github.com/elastic/puppet-elasticsearch.git
 puppet-kibana3 git /opt/stack/puppet-modules/kibana3 https://github.com/thejandroman/puppet-kibana3.git
 puppetlabs-git git /opt/stack/puppet-modules/git https://github.com/puppetlabs/puppetlabs-git.git
