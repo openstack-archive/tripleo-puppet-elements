@@ -61,7 +61,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-zookeeper \
     puppet-openstacklib \
     puppet-module-keepalived \
-    puppetlabs-ntp \
     puppet-snmp \
     puppet-tripleo \
     puppet-ironic \
