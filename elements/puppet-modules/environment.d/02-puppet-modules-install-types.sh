@@ -41,6 +41,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-nssdb \
     puppet-ovn \
     puppet-puppet \
+    puppet-placement \
     puppet-qdr \
     puppetlabs-rabbitmq \
     puppet-redis \
