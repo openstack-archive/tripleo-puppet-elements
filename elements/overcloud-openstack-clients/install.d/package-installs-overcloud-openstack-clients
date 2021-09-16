@@ -8,7 +8,6 @@ heatclient_package
 ironicclient_package
 keystoneclient_package
 manilaclient_package
-mistralclient_package
 neutronclient_package
 novaclient_package
 openstackclient_package
