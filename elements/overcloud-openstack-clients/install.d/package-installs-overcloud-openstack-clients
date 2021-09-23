@@ -11,6 +11,7 @@ manilaclient_package
 mistralclient_package
 neutronclient_package
 novaclient_package
+octaviaclient_package
 openstackclient_package
 swiftclient_package
 zaqarclient_package
