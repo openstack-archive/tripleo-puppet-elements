@@ -13,4 +13,3 @@ novaclient_package
 octaviaclient_package
 openstackclient_package
 swiftclient_package
-zaqarclient_package
