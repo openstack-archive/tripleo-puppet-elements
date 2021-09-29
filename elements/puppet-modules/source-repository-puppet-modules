@@ -23,7 +23,6 @@ puppet-kafka git /opt/stack/puppet-modules/kafka https://github.com/puppet-commu
 puppet-keystone git /opt/stack/puppet-modules/keystone https://opendev.org/openstack/puppet-keystone.git
 puppet-manila git /opt/stack/puppet-modules/manila https://opendev.org/openstack/puppet-manila.git
 puppet-memcached git /opt/stack/puppet-modules/memcached https://github.com/saz/puppet-memcached.git
-puppet-mistral git /opt/stack/puppet-modules/mistral https://opendev.org/openstack/puppet-mistral.git
 puppetlabs-mysql git /opt/stack/puppet-modules/mysql https://github.com/puppetlabs/puppetlabs-mysql.git
 puppet-neutron git /opt/stack/puppet-modules/neutron https://opendev.org/openstack/puppet-neutron.git
 puppet-nova git /opt/stack/puppet-modules/nova https://opendev.org/openstack/puppet-nova.git
