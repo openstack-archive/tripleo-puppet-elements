@@ -1,22 +1,4 @@
 {
-  "release": {
-    "rhel": {
-      "8": {
-        "yum_plugin_priorities_package": "",
-        "python_ipaddr": ""
-      }
-    },
-    "centos": {
-      "8": {
-        "yum_plugin_priorities_package": "",
-        "python_ipaddr": ""
-      },
-      "9": {
-        "yum_plugin_priorities_package": "",
-        "python_ipaddr": ""
-      }
-    }
-  },
   "default": {
     "aide": "aide",
     "ansible_pacemaker": "ansible-pacemaker",
@@ -24,11 +6,9 @@
     "gdisk": "gdisk",
     "podman": "podman",
     "libreswan": "libreswan",
-    "python_ipaddr": "python-ipaddr",
     "openstack_selinux": "openstack-selinux",
     "net_snmp": "net-snmp",
     "numactl": "numactl",
-    "yum_plugin_priorities_package": "yum-plugin-priorities",
     "iptables_services": "iptables-services",
     "tmpwatch": "tmpwatch",
     "sysstat": "sysstat"

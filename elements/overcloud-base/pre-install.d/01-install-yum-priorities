@@ -1,7 +1,0 @@
-#!/bin/bash
-set -e
-set -o xtrace
-
-if [[ "$DISTRO_NAME" == "centos7" || "$DISTRO_NAME" == "fedora" ]]; then
-  install-packages -m overcloud-base yum_plugin_priorities_package
-fi
