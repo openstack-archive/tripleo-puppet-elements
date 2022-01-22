@@ -1,28 +1,6 @@
 {
-  "family": {
-    "debian": {
-      "os-collect-config": "python-os-collect-config"
-    }
-  },
-  "release": {
-    "fedora": {
-      "28": {
-        "python-heat-agent": "python3-heat-agent"
-      }
-    },
-    "rhel": {
-      "8": {
-        "python-heat-agent": "python3-heat-agent"
-      }
-    },
-    "centos": {
-      "8": {
-        "python-heat-agent": "python3-heat-agent"
-      }
-    }
-  },
   "default": {
     "os-collect-config": "os-collect-config",
-    "python-heat-agent": "python-heat-agent"
+    "python-heat-agent": "python3-heat-agent"
   }
 }
