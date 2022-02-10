@@ -63,4 +63,3 @@ puppet-kmod git /opt/stack/puppet-modules/kmod https://github.com/camptocamp/pup
 puppet-qdr git /opt/stack/puppet-modules/qdr https://opendev.org/openstack/puppet-qdr.git
 puppet-systemd git /opt/stack/puppet-modules/systemd https://github.com/camptocamp/puppet-systemd.git
 puppet-etcd git /opt/stack/puppet-modules/etcd https://github.com/cristifalcas/puppet-etcd.git
-puppet-ptp git /opt/stack/puppet-modules/ptp https://github.com/redhat-nfvpe/ptp.git
