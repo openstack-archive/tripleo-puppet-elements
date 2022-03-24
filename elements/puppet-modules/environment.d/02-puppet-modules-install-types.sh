@@ -7,15 +7,12 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-aodh \
     puppet-auditd \
     puppet-barbican \
-    puppet-cassandra \
     puppet-ceilometer \
     puppet-gnocchi \
     puppet-cinder \
     puppet-common \
-    puppet-contrail \
     puppetlabs-concat \
     puppet-datacat \
-    puppet-elasticsearch \
     puppetlabs-firewall \
     puppet-galera \
     puppetlabs-git \
@@ -24,9 +21,7 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-heat \
     puppet-horizon \
     puppetlabs-inifile \
-    puppet-kafka \
     puppet-keystone \
-    puppet-kibana3 \
     puppet-memcached \
     puppetlabs-mysql \
     puppet-neutron \
@@ -47,7 +42,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppetlabs-sysctl \
     puppet-vswitch \
     puppetlabs-xinetd \
-    puppet-zookeeper \
     puppet-openstacklib \
     puppet-module-keepalived \
     puppet-snmp \

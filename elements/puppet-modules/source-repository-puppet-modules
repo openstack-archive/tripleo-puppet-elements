@@ -2,12 +2,10 @@ puppetlabs-apache git /opt/stack/puppet-modules/apache https://github.com/puppet
 puppet-aodh git /opt/stack/puppet-modules/aodh https://opendev.org/openstack/puppet-aodh.git
 puppet-auditd git /opt/stack/puppet-modules/auditd https://github.com/kemra102/puppet-auditd.git
 puppet-barbican git /opt/stack/puppet-modules/barbican https://opendev.org/openstack/puppet-barbican.git
-puppet-cassandra git /opt/stack/puppet-modules/cassandra  https://github.com/locp/cassandra.git
 puppet-ceilometer git /opt/stack/puppet-modules/ceilometer https://opendev.org/openstack/puppet-ceilometer.git
 puppet-gnocchi git /opt/stack/puppet-modules/gnocchi https://opendev.org/openstack/puppet-gnocchi.git
 puppet-cinder git /opt/stack/puppet-modules/cinder https://opendev.org/openstack/puppet-cinder.git
 puppet-common git /opt/stack/puppet-modules/common https://github.com/purpleidea/puppet-common.git
-puppet-contrail git /opt/stack/puppet-modules/contrail https://github.com/Juniper/puppet-contrail.git
 puppetlabs-concat git /opt/stack/puppet-modules/concat https://github.com/puppetlabs/puppetlabs-concat.git
 puppetlabs-firewall git /opt/stack/puppet-modules/firewall https://github.com/puppetlabs/puppetlabs-firewall.git
 puppet-glance git /opt/stack/puppet-modules/glance https://opendev.org/openstack/puppet-glance.git
@@ -15,7 +13,6 @@ puppetlabs-haproxy git /opt/stack/puppet-modules/haproxy https://github.com/pupp
 puppet-heat git /opt/stack/puppet-modules/heat https://opendev.org/openstack/puppet-heat.git
 puppet-horizon git /opt/stack/puppet-modules/horizon https://opendev.org/openstack/puppet-horizon.git
 puppetlabs-inifile git /opt/stack/puppet-modules/inifile https://github.com/puppetlabs/puppetlabs-inifile.git
-puppet-kafka git /opt/stack/puppet-modules/kafka https://github.com/puppet-community/puppet-kafka.git
 puppet-keystone git /opt/stack/puppet-modules/keystone https://opendev.org/openstack/puppet-keystone.git
 puppet-manila git /opt/stack/puppet-modules/manila https://opendev.org/openstack/puppet-manila.git
 puppet-memcached git /opt/stack/puppet-modules/memcached https://github.com/saz/puppet-memcached.git
@@ -36,7 +33,6 @@ puppet-swift git /opt/stack/puppet-modules/swift https://opendev.org/openstack/p
 puppetlabs-sysctl git /opt/stack/puppet-modules/sysctl https://github.com/puppetlabs/puppetlabs-sysctl.git
 puppet-vswitch git /opt/stack/puppet-modules/vswitch https://opendev.org/openstack/puppet-vswitch.git
 puppetlabs-xinetd git /opt/stack/puppet-modules/xinetd https://github.com/puppetlabs/puppetlabs-xinetd.git
-puppet-zookeeper git /opt/stack/puppet-modules/zookeeper https://github.com/miguno/puppet-zookeeper.git
 puppet-openstacklib git /opt/stack/puppet-modules/openstacklib https://opendev.org/openstack/puppet-openstacklib.git
 puppet-module-keepalived git /opt/stack/puppet-modules/keepalived https://github.com/Unyonsys/puppet-module-keepalived.git
 puppet-snmp git /opt/stack/puppet-modules/snmp https://github.com/razorsedge/puppet-snmp.git
@@ -44,8 +40,6 @@ puppet-tripleo git /opt/stack/puppet-modules/tripleo https://opendev.org/opensta
 puppet-ironic git /opt/stack/puppet-modules/ironic https://opendev.org/openstack/puppet-ironic.git
 puppet-ipaclient git /opt/stack/puppet-modules/ipaclient https://github.com/joshuabaird/puppet-ipaclient
 puppet-pacemaker git /opt/stack/puppet-modules/pacemaker https://opendev.org/openstack/puppet-pacemaker.git
-puppet-elasticsearch git /opt/stack/puppet-modules/elasticsearch https://github.com/elastic/puppet-elasticsearch.git
-puppet-kibana3 git /opt/stack/puppet-modules/kibana3 https://github.com/thejandroman/puppet-kibana3.git
 puppetlabs-git git /opt/stack/puppet-modules/git https://github.com/puppetlabs/puppetlabs-git.git
 puppet-datacat git /opt/stack/puppet-modules/datacat https://github.com/richardc/puppet-datacat.git
 puppet-qdr git /opt/stack/puppet-modules/qdr https://opendev.org/openstack/puppet-qdr.git
