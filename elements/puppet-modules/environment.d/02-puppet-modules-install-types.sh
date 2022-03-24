@@ -66,7 +66,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppetlabs-corosync \
     puppet-pacemaker \
     puppet-manila \
-    puppet-kmod \
     puppet-etcd; do
     export DIB_INSTALLTYPE_${module_name//\-/_}='source'
   done
