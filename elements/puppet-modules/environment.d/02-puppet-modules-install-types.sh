@@ -20,7 +20,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-galera \
     puppetlabs-git \
     puppet-glance \
-    puppet-gluster \
     puppetlabs-haproxy \
     puppet-heat \
     puppet-healthcheck \
@@ -49,7 +48,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-swift \
     puppet-systemd \
     puppetlabs-sysctl \
-    puppet-vlan \
     puppet-vswitch \
     puppetlabs-xinetd \
     puppet-zookeeper \
@@ -59,7 +57,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-ironic \
     puppet-ipaclient \
     puppet-openstack_extras \
-    puppet_aviator \
     puppetlabs-corosync \
     puppet-pacemaker \
     puppet-manila \
