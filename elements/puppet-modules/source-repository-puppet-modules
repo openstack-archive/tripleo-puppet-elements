@@ -3,7 +3,6 @@ puppet-aodh git /opt/stack/puppet-modules/aodh https://opendev.org/openstack/pup
 puppet-auditd git /opt/stack/puppet-modules/auditd https://github.com/kemra102/puppet-auditd.git
 puppet-barbican git /opt/stack/puppet-modules/barbican https://opendev.org/openstack/puppet-barbican.git
 puppet-cassandra git /opt/stack/puppet-modules/cassandra  https://github.com/locp/cassandra.git
-puppet-ceph git /opt/stack/puppet-modules/ceph https://opendev.org/openstack/puppet-ceph.git
 puppet-ceilometer git /opt/stack/puppet-modules/ceilometer https://opendev.org/openstack/puppet-ceilometer.git
 puppet-gnocchi git /opt/stack/puppet-modules/gnocchi https://opendev.org/openstack/puppet-gnocchi.git
 puppet-certmonger git /opt/stack/puppet-modules/certmonger https://github.com/earsdown/puppet-certmonger.git

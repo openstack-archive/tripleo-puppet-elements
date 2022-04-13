@@ -8,7 +8,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-auditd \
     puppet-barbican \
     puppet-cassandra \
-    puppet-ceph \
     puppet-ceilometer \
     puppet-gnocchi \
     puppet-certmonger \
