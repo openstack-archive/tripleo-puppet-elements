@@ -55,7 +55,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppetlabs-xinetd \
     puppet-zookeeper \
     puppet-openstacklib \
-    puppet-module-keepalived \
     puppet-snmp \
     puppet-tripleo \
     puppet-ironic \
