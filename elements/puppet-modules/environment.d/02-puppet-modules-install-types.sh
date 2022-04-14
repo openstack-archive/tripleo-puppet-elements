@@ -50,7 +50,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-swift \
     puppet-systemd \
     puppetlabs-sysctl \
-    puppetlabs-vcsrepo \
     puppet-vlan \
     puppet-vswitch \
     puppetlabs-xinetd \
