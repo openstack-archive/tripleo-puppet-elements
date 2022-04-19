@@ -12,3 +12,11 @@ tmpwatch
 openssl-perl
 lvm2
 sysstat
+python3-psutil
+python3-debtcollector
+sos
+device-mapper-multipath
+openstack-heat-agents
+os-net-config
+jq
+python3-dbus
