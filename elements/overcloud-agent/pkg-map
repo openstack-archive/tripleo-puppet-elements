@@ -1,6 +1,0 @@
-{
-  "default": {
-    "os-collect-config": "os-collect-config",
-    "python-heat-agent": "python3-heat-agent"
-  }
-}
