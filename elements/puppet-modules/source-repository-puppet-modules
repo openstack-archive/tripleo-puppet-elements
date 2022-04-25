@@ -9,7 +9,6 @@ puppet-common git /opt/stack/puppet-modules/common https://github.com/purpleidea
 puppetlabs-concat git /opt/stack/puppet-modules/concat https://github.com/puppetlabs/puppetlabs-concat.git
 puppetlabs-firewall git /opt/stack/puppet-modules/firewall https://github.com/puppetlabs/puppetlabs-firewall.git
 puppet-glance git /opt/stack/puppet-modules/glance https://opendev.org/openstack/puppet-glance.git
-puppet-gluster git /opt/stack/puppet-modules/gluster https://github.com/purpleidea/puppet-gluster.git
 puppetlabs-haproxy git /opt/stack/puppet-modules/haproxy https://github.com/puppetlabs/puppetlabs-haproxy.git
 puppet-heat git /opt/stack/puppet-modules/heat https://opendev.org/openstack/puppet-heat.git
 puppet-healthcheck git /opt/stack/puppet-modules/healthcheck https://github.com/puppet-community/puppet-healthcheck.git
@@ -35,7 +34,6 @@ puppet-staging git /opt/stack/puppet-modules/staging https://github.com/nanliu/p
 puppetlabs-stdlib git /opt/stack/puppet-modules/stdlib https://github.com/puppetlabs/puppetlabs-stdlib.git
 puppet-swift git /opt/stack/puppet-modules/swift https://opendev.org/openstack/puppet-swift.git
 puppetlabs-sysctl git /opt/stack/puppet-modules/sysctl https://github.com/puppetlabs/puppetlabs-sysctl.git
-puppet-vlan git /opt/stack/puppet-modules/vlan https://github.com/derekhiggins/puppet-vlan.git
 puppet-vswitch git /opt/stack/puppet-modules/vswitch https://opendev.org/openstack/puppet-vswitch.git
 puppetlabs-xinetd git /opt/stack/puppet-modules/xinetd https://github.com/puppetlabs/puppetlabs-xinetd.git
 puppet-openstacklib git /opt/stack/puppet-modules/openstacklib https://opendev.org/openstack/puppet-openstacklib.git
@@ -45,7 +43,6 @@ puppet-ironic git /opt/stack/puppet-modules/ironic https://opendev.org/openstack
 puppet-ipaclient git /opt/stack/puppet-modules/ipaclient https://github.com/joshuabaird/puppet-ipaclient
 puppetlabs-corosync git /opt/stack/puppet-modules/corosync https://github.com/puppetlabs/puppetlabs-corosync.git
 puppet-pacemaker git /opt/stack/puppet-modules/pacemaker https://opendev.org/openstack/puppet-pacemaker.git
-puppet_aviator git /opt/stack/puppet-modules/aviator https://github.com/aimonb/puppet_aviator.git
 puppet-openstack_extras git /opt/stack/puppet-modules/openstack_extras https://opendev.org/openstack/puppet-openstack_extras.git
 puppetlabs-git git /opt/stack/puppet-modules/git https://github.com/puppetlabs/puppetlabs-git.git
 puppet-datacat git /opt/stack/puppet-modules/datacat https://github.com/richardc/puppet-datacat.git
