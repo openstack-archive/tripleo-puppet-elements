@@ -12,7 +12,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-cinder \
     puppet-common \
     puppetlabs-concat \
-    puppet-datacat \
     puppetlabs-firewall \
     puppet-galera \
     puppetlabs-git \
