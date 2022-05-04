@@ -19,7 +19,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-glance \
     puppetlabs-haproxy \
     puppet-heat \
-    puppet-healthcheck \
     puppet-horizon \
     puppetlabs-inifile \
     puppet-keystone \
@@ -38,7 +37,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-redis \
     puppetlabs-rsync \
     puppet-ssh \
-    puppet-staging \
     puppetlabs-stdlib \
     puppet-swift \
     puppet-systemd \
@@ -50,8 +48,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-tripleo \
     puppet-ironic \
     puppet-ipaclient \
-    puppet-openstack_extras \
-    puppetlabs-corosync \
     puppet-pacemaker \
     puppet-manila \
     puppet-etcd; do

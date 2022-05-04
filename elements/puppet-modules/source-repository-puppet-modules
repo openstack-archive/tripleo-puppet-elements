@@ -11,7 +11,6 @@ puppetlabs-firewall git /opt/stack/puppet-modules/firewall https://github.com/pu
 puppet-glance git /opt/stack/puppet-modules/glance https://opendev.org/openstack/puppet-glance.git
 puppetlabs-haproxy git /opt/stack/puppet-modules/haproxy https://github.com/puppetlabs/puppetlabs-haproxy.git
 puppet-heat git /opt/stack/puppet-modules/heat https://opendev.org/openstack/puppet-heat.git
-puppet-healthcheck git /opt/stack/puppet-modules/healthcheck https://github.com/puppet-community/puppet-healthcheck.git
 puppet-horizon git /opt/stack/puppet-modules/horizon https://opendev.org/openstack/puppet-horizon.git
 puppetlabs-inifile git /opt/stack/puppet-modules/inifile https://github.com/puppetlabs/puppetlabs-inifile.git
 puppet-keystone git /opt/stack/puppet-modules/keystone https://opendev.org/openstack/puppet-keystone.git
@@ -30,7 +29,6 @@ puppetlabs-rabbitmq git /opt/stack/puppet-modules/rabbitmq https://github.com/pu
 puppet-redis git /opt/stack/puppet-modules/redis https://github.com/arioch/puppet-redis.git
 puppetlabs-rsync git /opt/stack/puppet-modules/rsync https://github.com/puppetlabs/puppetlabs-rsync.git
 puppet-ssh git /opt/stack/puppet-modules/ssh https://github.com/saz/puppet-ssh.git
-puppet-staging git /opt/stack/puppet-modules/staging https://github.com/nanliu/puppet-staging.git
 puppetlabs-stdlib git /opt/stack/puppet-modules/stdlib https://github.com/puppetlabs/puppetlabs-stdlib.git
 puppet-swift git /opt/stack/puppet-modules/swift https://opendev.org/openstack/puppet-swift.git
 puppetlabs-sysctl git /opt/stack/puppet-modules/sysctl https://github.com/puppetlabs/puppetlabs-sysctl.git
@@ -41,9 +39,7 @@ puppet-snmp git /opt/stack/puppet-modules/snmp https://github.com/razorsedge/pup
 puppet-tripleo git /opt/stack/puppet-modules/tripleo https://opendev.org/openstack/puppet-tripleo.git
 puppet-ironic git /opt/stack/puppet-modules/ironic https://opendev.org/openstack/puppet-ironic.git
 puppet-ipaclient git /opt/stack/puppet-modules/ipaclient https://github.com/joshuabaird/puppet-ipaclient
-puppetlabs-corosync git /opt/stack/puppet-modules/corosync https://github.com/puppetlabs/puppetlabs-corosync.git
 puppet-pacemaker git /opt/stack/puppet-modules/pacemaker https://opendev.org/openstack/puppet-pacemaker.git
-puppet-openstack_extras git /opt/stack/puppet-modules/openstack_extras https://opendev.org/openstack/puppet-openstack_extras.git
 puppetlabs-git git /opt/stack/puppet-modules/git https://github.com/puppetlabs/puppetlabs-git.git
 puppet-datacat git /opt/stack/puppet-modules/datacat https://github.com/richardc/puppet-datacat.git
 puppet-qdr git /opt/stack/puppet-modules/qdr https://opendev.org/openstack/puppet-qdr.git
