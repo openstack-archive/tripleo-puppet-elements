@@ -1,3 +1,0 @@
-#!/bin/bash
-sudo gem install faraday
-sudo gem install url
