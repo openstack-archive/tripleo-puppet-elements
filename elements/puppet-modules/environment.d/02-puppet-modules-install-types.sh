@@ -43,7 +43,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-vswitch \
     puppetlabs-xinetd \
     puppet-openstacklib \
-    puppet-module-keepalived \
     puppet-snmp \
     puppet-tripleo \
     puppet-ironic \
