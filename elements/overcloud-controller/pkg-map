@@ -8,7 +8,7 @@
   },
   "default": {
     "certmonger": "certmonger",
-    "fence_agents_package": "fence-agents-redfish fence-agents-ipmilan fence-agents-kdump fence-agents-rhevm fence-agents-compute",
+    "fence_agents_package": "fence-agents-redfish fence-agents-ipmilan fence-agents-kdump fence-agents-rhevm fence-agents-compute sbd fence-agents-sbd",
     "fence_virt_package": "fence-virt",
     "ipa_admintools_package": "ipa-admintools",
     "ipa_client_package": "ipa-client",
