@@ -41,6 +41,7 @@ puppet-ironic git /opt/stack/puppet-modules/ironic https://opendev.org/openstack
 puppet-ipaclient git /opt/stack/puppet-modules/ipaclient https://github.com/joshuabaird/puppet-ipaclient
 puppet-pacemaker git /opt/stack/puppet-modules/pacemaker https://opendev.org/openstack/puppet-pacemaker.git
 puppetlabs-git git /opt/stack/puppet-modules/git https://github.com/puppetlabs/puppetlabs-git.git
+puppet-kmod git /opt/stack/puppet-modules/kmod https://github.com/camptocamp/puppet-kmod.git
 puppet-qdr git /opt/stack/puppet-modules/qdr https://opendev.org/openstack/puppet-qdr.git
 puppet-systemd git /opt/stack/puppet-modules/systemd https://github.com/camptocamp/puppet-systemd.git
 puppet-etcd git /opt/stack/puppet-modules/etcd https://github.com/cristifalcas/puppet-etcd.git
