@@ -13,6 +13,5 @@ neutronclient_package
 novaclient_package
 octaviaclient_package
 openstackclient_package
-saharaclient_package
 swiftclient_package
 zaqarclient_package
