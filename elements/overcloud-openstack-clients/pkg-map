@@ -16,8 +16,7 @@
             "novaclient_package": "python2-novaclient",
             "octaviaclient_package": "python2-octaviaclient",
             "openstackclient_package": "python2-openstackclient",
-            "swiftclient_package": "python2-swiftclient",
-            "zaqarclient_package": "python2-zaqarclient"
+            "swiftclient_package": "python2-swiftclient"
           }
       },
       "rhel": {
@@ -36,8 +35,7 @@
             "novaclient_package": "python2-novaclient",
             "octaviaclient_package": "python2-octaviaclient",
             "openstackclient_package": "python2-openstackclient",
-            "swiftclient_package": "python2-swiftclient",
-            "zaqarclient_package": "python2-zaqarclient"
+            "swiftclient_package": "python2-swiftclient"
           }
       }
   },
@@ -56,7 +54,6 @@
     "novaclient_package": "python3-novaclient",
     "octaviaclient_package": "python3-octaviaclient",
     "openstackclient_package": "python3-openstackclient",
-    "swiftclient_package": "python3-swiftclient",
-    "zaqarclient_package": "python3-zaqarclient"
+    "swiftclient_package": "python3-swiftclient"
   }
 }
