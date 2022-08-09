@@ -5,7 +5,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
   for module_name in \
     puppetlabs-apache \
     puppet-aodh \
-    puppet-auditd \
     puppet-barbican \
     puppet-ceilometer \
     puppet-gnocchi \

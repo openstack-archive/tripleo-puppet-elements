@@ -1,6 +1,5 @@
 puppetlabs-apache git /opt/stack/puppet-modules/apache https://github.com/puppetlabs/puppetlabs-apache.git
 puppet-aodh git /opt/stack/puppet-modules/aodh https://opendev.org/openstack/puppet-aodh.git
-puppet-auditd git /opt/stack/puppet-modules/auditd https://github.com/kemra102/puppet-auditd.git
 puppet-barbican git /opt/stack/puppet-modules/barbican https://opendev.org/openstack/puppet-barbican.git
 puppet-ceilometer git /opt/stack/puppet-modules/ceilometer https://opendev.org/openstack/puppet-ceilometer.git
 puppet-gnocchi git /opt/stack/puppet-modules/gnocchi https://opendev.org/openstack/puppet-gnocchi.git
