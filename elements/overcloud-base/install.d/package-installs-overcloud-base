@@ -6,6 +6,7 @@ podman
 libreswan
 openstack_selinux
 net_snmp
+nftables
 numactl
 iptables_services
 tmpwatch
