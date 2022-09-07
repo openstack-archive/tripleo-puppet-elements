@@ -45,7 +45,6 @@ if [ "$DIB_INSTALLTYPE_puppet_modules" = "source" ]; then
     puppet-snmp \
     puppet-tripleo \
     puppet-ironic \
-    puppet-ipaclient \
     puppet-pacemaker \
     puppet-manila \
     puppet-kmod \

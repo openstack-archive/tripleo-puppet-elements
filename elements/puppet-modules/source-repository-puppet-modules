@@ -37,7 +37,6 @@ puppet-openstacklib git /opt/stack/puppet-modules/openstacklib https://opendev.o
 puppet-snmp git /opt/stack/puppet-modules/snmp https://github.com/razorsedge/puppet-snmp.git
 puppet-tripleo git /opt/stack/puppet-modules/tripleo https://opendev.org/openstack/puppet-tripleo.git
 puppet-ironic git /opt/stack/puppet-modules/ironic https://opendev.org/openstack/puppet-ironic.git
-puppet-ipaclient git /opt/stack/puppet-modules/ipaclient https://github.com/joshuabaird/puppet-ipaclient
 puppet-pacemaker git /opt/stack/puppet-modules/pacemaker https://opendev.org/openstack/puppet-pacemaker.git
 puppetlabs-git git /opt/stack/puppet-modules/git https://github.com/puppetlabs/puppetlabs-git.git
 puppet-kmod git /opt/stack/puppet-modules/kmod https://github.com/camptocamp/puppet-kmod.git
