@@ -7,7 +7,6 @@
     "podman": "podman",
     "libreswan": "libreswan",
     "openstack_selinux": "openstack-selinux",
-    "net_snmp": "net-snmp",
     "numactl": "numactl",
     "iptables_services": "iptables-services",
     "tmpwatch": "tmpwatch",
