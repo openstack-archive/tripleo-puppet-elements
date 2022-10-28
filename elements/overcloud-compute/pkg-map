@@ -6,7 +6,6 @@
     "chrony_package": "chrony",
     "pacemaker_remote_package": "pacemaker-remote",
     "sasl_scram_package": "cyrus-sasl-scram",
-    "tuned_profiles_cpu_partitioning_package": "tuned-profiles-cpu-partitioning",
     "ndctl_package": "ndctl",
     "linuxptp_package": "linuxptp"
   }

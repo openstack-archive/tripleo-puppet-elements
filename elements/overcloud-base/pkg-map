@@ -11,6 +11,7 @@
     "numactl": "numactl",
     "iptables_services": "iptables-services",
     "tmpwatch": "tmpwatch",
+    "tuned_profiles_cpu_partitioning_package": "tuned-profiles-cpu-partitioning",
     "sysstat": "sysstat"
   }
 }

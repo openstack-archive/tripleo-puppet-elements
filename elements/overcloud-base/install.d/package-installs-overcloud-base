@@ -12,3 +12,4 @@ tmpwatch
 openssl-perl
 lvm2
 sysstat
+tuned_profiles_cpu_partitioning_package
