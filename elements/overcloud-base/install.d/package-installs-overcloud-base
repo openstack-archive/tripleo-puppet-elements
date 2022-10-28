@@ -20,3 +20,4 @@ openstack-heat-agents
 os-net-config
 jq
 python3-dbus
+tuned_profiles_cpu_partitioning_package
