@@ -33,6 +33,7 @@
     "yum_plugin_priorities_package": "yum-plugin-priorities",
     "iptables_services": "iptables-services",
     "tmpwatch": "tmpwatch",
+    "tuned_profiles_cpu_partitioning_package": "tuned-profiles-cpu-partitioning",
     "sysstat": "sysstat"
   }
 }
