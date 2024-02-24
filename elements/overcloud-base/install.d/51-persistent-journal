@@ -1,7 +1,0 @@
-#!/bin/bash
-
-set -eu
-set -o pipefail
-
-# Enable persistent logging for the systemd journal
-mkdir -p /var/log/journal

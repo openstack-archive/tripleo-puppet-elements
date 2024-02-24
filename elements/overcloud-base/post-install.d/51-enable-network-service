@@ -1,7 +1,0 @@
-#!/bin/bash
-
-set -eux
-set -o pipefail
-
-# https://launchpad.net/bugs/1823353
-chkconfig network on

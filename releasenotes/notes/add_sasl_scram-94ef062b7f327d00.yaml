@@ -1,4 +1,0 @@
----
-features:
-  - |
-    Add cyrus-sasl-scram to allow libvirt SCRAM-SHA1 auth

@@ -1,1 +1,0 @@
-Install all openstack clients

@@ -1,5 +1,0 @@
-{
-  "default": {
-    "chrony_package": "chrony"
-  }
-}

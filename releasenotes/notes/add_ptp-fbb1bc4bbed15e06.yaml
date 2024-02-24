@@ -1,4 +1,0 @@
----
-features:
-  - |
-    Add puppet-ptp which can be used to manage ptp configuration

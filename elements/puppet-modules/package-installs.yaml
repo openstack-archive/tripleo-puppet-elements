@@ -1,2 +1,0 @@
-puppet_modules_package:
-  installtype: package

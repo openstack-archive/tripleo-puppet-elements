@@ -1,4 +1,0 @@
----
-features:
-  - |
-    Add puppet-veritas-hyperscale which is used to configure Veritas HyperScale backend.
